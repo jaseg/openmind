@@ -1,0 +1,13 @@
+EESchema-LIBRARY Version 2.3  Date: Tue 20 Dec 2011 06:35:00 PM CET
+#encoding utf-8
+#
+# ADS1294
+#
+DEF ADS1294 U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "ADS1294" 0 0 60 H V C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library
