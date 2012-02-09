@@ -1,0 +1,407 @@
+# EESchema Netlist Version 1.1 created  Fri 30 Dec 2011 11:51:31 AM CET
+(
+ ( /4EFD05FB $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 N-000024 )
+ )
+ ( /4EFD05E7 $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 /ref )
+ )
+ ( /4EFD05B9 $noname  R9 20k {Lib=R}
+  (    1 N-000034 )
+  (    2 /ref )
+ )
+ ( /4EFD043C $noname  R10 1M {Lib=R}
+  (    1 N-000022 )
+  (    2 N-000034 )
+ )
+ ( /4EFD0435 $noname  C8 1n5 {Lib=C}
+  (    1 N-000034 )
+  (    2 N-000022 )
+ )
+ ( /4EFCC876 $noname  P9 CONN_4 {Lib=CONN_4}
+  (    1 DGND )
+  (    2 VDD )
+  (    3 AGND )
+  (    4 VAA )
+ )
+ ( /4EFCC439 $noname  P8 SPI {Lib=CONN_5}
+  (    1 N-000031 )
+  (    2 N-000023 )
+  (    3 N-000018 )
+  (    4 N-000019 )
+  (    5 N-000021 )
+ )
+ ( /4EFCC270 $noname  R8 R {Lib=R}
+  (    1 DGND )
+  (    2 N-000036 )
+ )
+ ( /4EFCC26C $noname  R7 R {Lib=R}
+  (    1 DGND )
+  (    2 N-000037 )
+ )
+ ( /4EFCC261 $noname  D2 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 N-000036 )
+ )
+ ( /4EFCC25B $noname  D1 LED {Lib=LED}
+  (    1 N-000032 )
+  (    2 N-000037 )
+ )
+ ( /4EFCC12C $noname  R3 20k {Lib=R}
+  (    1 N-000028 )
+  (    2 N-000006 )
+ )
+ ( /4EFCC129 $noname  R4 20k {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000008 )
+ )
+ ( /4EFCC128 $noname  R5 20k {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000010 )
+ )
+ ( /4EFCC123 $noname  R6 20k {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000012 )
+ )
+ ( /4EFCC11F $noname  R2 20k {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000014 )
+ )
+ ( /4EFCC08A $noname  R1 20k {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000016 )
+ )
+ ( /4EFCC00C $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 N-000012 )
+ )
+ ( /4EFCC00B $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 N-000010 )
+ )
+ ( /4EFCC009 $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 N-000008 )
+ )
+ ( /4EFCBFFF $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 N-000006 )
+ )
+ ( /4EFCBFFA $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000014 )
+ )
+ ( /4EFCBFF1 $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 N-000016 )
+ )
+ ( /4EFCBF88 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 N-000016 )
+ )
+ ( /4EFCABF9 $noname  C6 10µ_cer. {Lib=C}
+  (    1 VAA )
+  (    2 AGND )
+ )
+ ( /4EFCABF5 $noname  C7 10µ_cer. {Lib=C}
+  (    1 VDD )
+  (    2 DGND )
+ )
+ ( /4EFCABB4 $noname  C1 10µ_cer. {Lib=C}
+  (    1 N-000030 )
+  (    2 AGND )
+ )
+ ( /4EFCA95E $noname  C4 1µ {Lib=C}
+  (    1 N-000017 )
+  (    2 AGND )
+ )
+ ( /4EFCA959 $noname  C5 1µ {Lib=C}
+  (    1 N-000005 )
+  (    2 AGND )
+ )
+ ( /4EFCA4FC $noname  C3 4n7 {Lib=C}
+  (    1 N-000029 )
+  (    2 N-000025 )
+ )
+ ( /4EFCA4F7 $noname  C2 4n7 {Lib=C}
+  (    1 N-000027 )
+  (    2 N-000026 )
+ )
+ ( /4EFCA18C $noname  U1 ADS1291/2 {Lib=ADS1291/2}
+  (    1 N-000027 )
+  (    2 N-000026 )
+  (    3 N-000013 )
+  (    4 N-000015 )
+  (    5 N-000007 )
+  (    6 N-000028 )
+  (    7 N-000025 )
+  (    8 N-000029 )
+  (    9 N-000030 )
+  (   10 AGND )
+  (   11 N-000017 )
+  (   12 VAA )
+  (   13 AGND )
+  (   14 VDD )
+  (   15 VDD )
+  (   16 DGND )
+  (   17 ? )
+  (   18 N-000021 )
+  (   19 N-000023 )
+  (   20 N-000031 )
+  (   21 N-000018 )
+  (   22 N-000019 )
+  (   23 VDD )
+  (   24 DGND )
+  (   25 N-000035 )
+  (   26 N-000032 )
+  (   27 N-000005 )
+  (   28 N-000022 )
+  (   29 N-000024 )
+  (   30 N-000034 )
+  (   31 N-000009 )
+  (   32 N-000011 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "VDD" "VDD"
+ P9 2
+ U1 15
+ U1 14
+ U1 23
+ C7 1
+Net 2 "VAA" "VAA"
+ U1 12
+ C6 1
+ P9 4
+Net 3 "AGND" "AGND"
+ P9 3
+ U1 13
+ U1 10
+ C6 2
+ C5 2
+ C1 2
+ C4 2
+Net 4 "DGND" "DGND"
+ R7 1
+ R8 1
+ P9 1
+ U1 16
+ C7 2
+ U1 24
+Net 5 "" ""
+ U1 27
+ C5 1
+Net 6 "" ""
+ P3 1
+ R3 2
+Net 7 "" ""
+ U1 5
+ R4 1
+Net 8 "" ""
+ R4 2
+ P4 1
+Net 9 "" ""
+ R5 1
+ U1 31
+Net 10 "" ""
+ R5 2
+ P5 1
+Net 11 "" ""
+ U1 32
+ R6 1
+Net 12 "" ""
+ R6 2
+ P6 1
+Net 13 "" ""
+ R2 1
+ U1 3
+Net 14 "" ""
+ R2 2
+ P2 1
+Net 15 "" ""
+ R1 1
+ U1 4
+Net 16 "" ""
+ R1 2
+ P7 1
+ P1 1
+Net 17 "" ""
+ U1 11
+ C4 1
+Net 18 "" ""
+ P8 3
+ U1 21
+Net 19 "" ""
+ P8 4
+ U1 22
+Net 21 "" ""
+ U1 18
+ P8 5
+Net 22 "" ""
+ U1 28
+ R10 1
+ C8 2
+Net 23 "" ""
+ P8 2
+ U1 19
+Net 24 "" ""
+ U1 29
+ P11 1
+Net 25 "" ""
+ C3 2
+ U1 7
+Net 26 "" ""
+ C2 2
+ U1 2
+Net 27 "" ""
+ C2 1
+ U1 1
+Net 28 "" ""
+ U1 6
+ R3 1
+Net 29 "" ""
+ U1 8
+ C3 1
+Net 30 "" ""
+ C1 1
+ U1 9
+Net 31 "" ""
+ P8 1
+ U1 20
+Net 32 "" ""
+ D1 1
+ U1 26
+Net 33 "/ref" "ref"
+ P10 1
+ R9 2
+Net 34 "" ""
+ U1 30
+ R9 1
+ C8 1
+ R10 2
+Net 35 "" ""
+ D2 1
+ U1 25
+Net 36 "" ""
+ D2 2
+ R8 2
+Net 37 "" ""
+ D1 2
+ R7 2
+}
+#End
