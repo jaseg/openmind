@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 09 Feb 2012 10:18:34 AM CET
+EESchema Schematic File Version 2  date Fri 10 Feb 2012 10:08:11 AM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "30 dec 2011"
+Date "10 feb 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 6700 2100 0    60   ~ 0
+vaa
+Text Label 6700 2000 0    60   ~ 0
+agnd
+Text Label 6700 1900 0    60   ~ 0
+vdd
+Text Label 6700 1800 0    60   ~ 0
+gnd
+Wire Wire Line
+	6650 2000 6750 2000
 Wire Wire Line
 	6650 1800 6750 1800
 Connection ~ 4800 1900
@@ -104,6 +114,8 @@ Wire Wire Line
 	4800 1900 4800 2000
 Wire Wire Line
 	4100 2400 4100 2550
+Wire Wire Line
+	6650 1900 6750 1900
 Text Label 4100 2550 0    60   ~ 0
 ref
 $Comp
@@ -217,10 +229,10 @@ $EndComp
 $Comp
 L AGND #PWR18
 U 1 1 4EFCC87D
-P 6750 2000
-F 0 "#PWR18" H 6750 2000 40  0001 C CNN
-F 1 "AGND" H 6750 1930 50  0000 C CNN
-	1    6750 2000
+P 6650 2000
+F 0 "#PWR18" H 6650 2000 40  0001 C CNN
+F 1 "AGND" H 6650 1930 50  0000 C CNN
+	1    6650 2000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -235,10 +247,10 @@ $EndComp
 $Comp
 L VDD #PWR17
 U 1 1 4EFCC86C
-P 6750 1900
-F 0 "#PWR17" H 6750 2000 30  0001 C CNN
-F 1 "VDD" H 6750 2010 30  0000 C CNN
-	1    6750 1900
+P 6650 1900
+F 0 "#PWR17" H 6650 2000 30  0001 C CNN
+F 1 "VDD" H 6650 2010 30  0000 C CNN
+	1    6650 1900
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 6100 3500

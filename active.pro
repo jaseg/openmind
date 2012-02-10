@@ -1,5 +1,5 @@
-update=Thu 29 Dec 2011 09:38:31 PM CET
-last_client=cvpcb
+update=Fri 10 Feb 2012 10:43:52 AM CET
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -65,6 +65,11 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=ads
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=320
@@ -83,6 +88,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=active.net
 [pcbnew/libraries]
+LibDir=../openmind
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -94,9 +100,4 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=ads
-LibDir=../openmind
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName12=oshw-logo
