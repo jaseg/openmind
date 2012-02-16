@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 16 Feb 2012 11:20:04 AM CET
+EESchema Schematic File Version 2  date Thu 16 Feb 2012 12:05:28 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 feb 2012"
+Date "16 feb 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_1 P12
+U 1 1 4F3CE2EB
+P 4800 1750
+F 0 "P12" H 4880 1750 40  0000 L CNN
+F 1 "CONN_1" H 4800 1805 30  0001 C CNN
+	1    4800 1750
+	0    -1   -1   0   
+$EndComp
 Text Label 6700 2100 0    60   ~ 0
 vaa
 Text Label 6700 2000 0    60   ~ 0
@@ -164,10 +173,10 @@ F 1 "1n5" H 4850 2100 50  0000 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VAA #PWR16
+L VAA #PWR18
 U 1 1 4EFCC8CB
 P 6700 2100
-F 0 "#PWR16" H 6700 2160 30  0001 C CNN
+F 0 "#PWR18" H 6700 2160 30  0001 C CNN
 F 1 "VAA" H 6700 2210 30  0000 C CNN
 	1    6700 2100
 	0    -1   -1   0   
@@ -227,10 +236,10 @@ F 1 "DGND" H 7100 3030 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #PWR18
+L AGND #PWR17
 U 1 1 4EFCC87D
 P 6650 2000
-F 0 "#PWR18" H 6650 2000 40  0001 C CNN
+F 0 "#PWR17" H 6650 2000 40  0001 C CNN
 F 1 "AGND" H 6650 1930 50  0000 C CNN
 	1    6650 2000
 	0    1    1    0   
@@ -245,10 +254,10 @@ F 1 "CONN_4" V 7150 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR17
+L VDD #PWR16
 U 1 1 4EFCC86C
 P 6650 1900
-F 0 "#PWR17" H 6650 2000 30  0001 C CNN
+F 0 "#PWR16" H 6650 2000 30  0001 C CNN
 F 1 "VDD" H 6650 2010 30  0000 C CNN
 	1    6650 1900
 	0    -1   -1   0   

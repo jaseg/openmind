@@ -3,13 +3,14 @@ Disclaimer
 These schematics and code are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even
 the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Do not build this stuff or even connect it to any living thing unless you ABSOLUTELY KNOW WHAT YOU ARE DOING!
-(Sorry for all the shouting. Although I do not like disclaimers, I have the bad feeling one might be necessary here... tell me if you know otherwise)
+(Sorry for all the shouting. Although I do not like disclaimers, I have the bad feeling one might be necessary here...
+tell me if you know otherwise)
 
 What is it?
 -----------
 OpenMind is a take on an open source electroencephalograph, i.e. a device to capture "brain waves" - the tiny electrical
 signals your brain emits when working. By itself, the hardware can also be used as "just" a pretty high-resolution
-albeit slow ADC to upgrade your arduino (imagine gaining 12 bits...).
+albeit slow ADC to upgrade your arduino (imagine gaining 12 bits of resolution...).
 
 Introduction
 ------------
@@ -24,10 +25,30 @@ them can be controlled via three SPI pins and 8 !CS pins.
 
 Electrode Connections
 ---------------------
+### Electrode modes
 In absolute mode you connect one electrode to each channel's positive (non-inverting) input, and connect the negative
 (inverting) inputs to the reference signal (as denoted on the schematic/PCB).
 In absolute mode you connect one electrode to each of the two inputs per channel and the device will measure the
 potential between each pair of them.
+
+### Right-leg drive (RLD)
+The RLD is an op-amp which is used to cancel out LF interference with the EEG signal. It works by continuously comparing
+a reference potential (normally VDD/2) with an average of all electrode signals and driving a dedicated reference
+electrode with the difference. This signal is very weak and thus not noticable except in the measurements.
+Multiple devices can be cascaded by connecting their ``RLD_INV`` pins together and powering down all but one RLD. This
+RLD's output signal is used to provide the reference voltage. 
+The active RLD can be selected at runtime, and you could even select the reference electrode at runtime from any
+electrode connected to one of the inputs - sacrificing that one electrode.
+
+### Lead-off detection
+The ADS12XX does contain a pretty neat lead-off-detection, which can be used to measure the connection of the electrode
+to the skin and the connection of the RLD electrode to the skin. This could e.g. be used to signify the electrodes
+connection status with the on-board LEDs.
+
+Miscellaneous
+-------------
+The ``RLDIN/RLDREF`` signal can be routed to any of the device's electrodes (whatever that might be needed for) *and/or*
+any of the ADC inputs - so you can connect some auxiliary signal to this pin and measure it with any ADC.
 
 Software/driver
 ---------------
