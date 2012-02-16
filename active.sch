@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 16 Feb 2012 12:05:28 PM CET
+EESchema Schematic File Version 2  date Thu 16 Feb 2012 12:25:49 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -70,9 +70,11 @@ Connection ~ 4800 1900
 Wire Wire Line
 	5000 2600 5000 1900
 Wire Wire Line
-	5000 1900 4600 1900
+	5000 1900 4800 1900
 Wire Wire Line
-	4600 2400 4800 2400
+	4800 1900 4450 1900
+Wire Wire Line
+	4450 2400 4800 2400
 Wire Wire Line
 	6750 2100 6700 2100
 Wire Wire Line
@@ -81,10 +83,14 @@ Wire Wire Line
 	6200 3100 6100 3100
 Connection ~ 7100 3000
 Wire Wire Line
-	7100 2750 7100 3100
+	7100 2750 7100 3000
+Wire Wire Line
+	7100 3000 7100 3100
 Connection ~ 3700 4000
 Wire Wire Line
-	3700 3900 3700 4100
+	3700 3900 3700 4000
+Wire Wire Line
+	3700 4000 3700 4100
 Wire Wire Line
 	5400 5100 5400 4850
 Wire Wire Line
@@ -122,10 +128,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 1900 4800 2000
 Wire Wire Line
-	4100 2400 4100 2550
+	3950 2400 3800 2400
 Wire Wire Line
 	6650 1900 6750 1900
-Text Label 4100 2550 0    60   ~ 0
+Text Label 3800 2400 0    60   ~ 0
 ref
 $Comp
 L CONN_1 P11
@@ -139,28 +145,28 @@ $EndComp
 $Comp
 L CONN_1 P10
 U 1 1 4EFD05E7
-P 3950 2400
-F 0 "P10" H 4030 2400 40  0000 L CNN
-F 1 "CONN_1" H 3950 2455 30  0001 C CNN
-	1    3950 2400
+P 3650 2400
+F 0 "P10" H 3730 2400 40  0000 L CNN
+F 1 "CONN_1" H 3650 2455 30  0001 C CNN
+	1    3650 2400
 	-1   0    0    1   
 $EndComp
 $Comp
 L R R9
 U 1 1 4EFD05B9
-P 4350 2400
-F 0 "R9" V 4430 2400 50  0000 C CNN
-F 1 "20k" V 4350 2400 50  0000 C CNN
-	1    4350 2400
+P 4200 2400
+F 0 "R9" V 4280 2400 50  0000 C CNN
+F 1 "20k" V 4200 2400 50  0000 C CNN
+	1    4200 2400
 	0    1    1    0   
 $EndComp
 $Comp
 L R R10
 U 1 1 4EFD043C
-P 4600 2150
-F 0 "R10" V 4680 2150 50  0000 C CNN
-F 1 "1M" V 4600 2150 50  0000 C CNN
-	1    4600 2150
+P 4450 2150
+F 0 "R10" V 4530 2150 50  0000 C CNN
+F 1 "1M" V 4450 2150 50  0000 C CNN
+	1    4450 2150
 	1    0    0    -1  
 $EndComp
 $Comp
