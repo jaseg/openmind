@@ -50,6 +50,9 @@ Miscellaneous
 The ``RLDIN/RLDREF`` signal can be routed to any of the device's electrodes (whatever that might be needed for) *and/or*
 any of the ADC inputs - so you can connect some auxiliary signal to this pin and measure it with any ADC.
 
+The pad on the bottom side of the board is intended to be used to surface-mount type 261k or 269k 9v battery connectors
+(available at digikey). I did not yet check this, but I will as soon as I order at digikey.
+
 Software/driver
 ---------------
 The interfacing of these ADCs is pretty straightforward. A driver for AVRs currently only supporting the ADS1194
