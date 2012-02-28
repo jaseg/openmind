@@ -1,161 +1,167 @@
-# EESchema Netlist Version 1.1 created  Tue 21 Feb 2012 02:42:29 PM CET
+# EESchema Netlist Version 1.1 created  Tue 28 Feb 2012 12:08:28 PM CET
 (
  ( /4EFCABB4 SM0805 C1 10µ_cer.
-  ( 1 N-000033 )
+  ( 1 N-000031 )
   ( 2 AGND )
  )
- ( /4EFCA4F7 SM0805 C2 4n7
-  ( 1 N-000029 )
-  ( 2 N-000028 )
+ ( /4EFCA4F7 SM0603 C2 4n7
+  ( 1 N-000028 )
+  ( 2 N-000027 )
  )
- ( /4EFCA4FC SM0805 C3 4n7
-  ( 1 N-000032 )
-  ( 2 N-000031 )
+ ( /4EFCA4FC SM0603 C3 4n7
+  ( 1 N-000030 )
+  ( 2 N-000026 )
  )
  ( /4EFCA95E SM0805 C4 1µ
-  ( 1 N-000020 )
+  ( 1 N-000019 )
   ( 2 AGND )
  )
  ( /4EFCA959 SM0805 C5 1µ
-  ( 1 N-000017 )
+  ( 1 N-000005 )
   ( 2 AGND )
  )
- ( /4EFCABF9 SM1206 C6 10µ_cer.
+ ( /4EFCABF9 SM0805 C6 10µ_cer.
   ( 1 VAA )
   ( 2 AGND )
  )
- ( /4EFCABF5 SM1206 C7 10µ_cer.
+ ( /4EFCABF5 SM0805 C7 10µ_cer.
   ( 1 VDD )
   ( 2 DGND )
  )
- ( /4EFD0435 SM0805 C8 1n5
-  ( 1 N-000036 )
-  ( 2 N-000025 )
+ ( /4EFD0435 SM0603 C8 1n5
+  ( 1 N-000033 )
+  ( 2 N-000023 )
  )
  ( /4EFCC25B LED-0805 D1 LED
-  ( 1 N-000007 )
-  ( 2 N-000008 )
+  ( 1 N-000034 )
+  ( 2 N-000035 )
  )
- ( /4EFCC261 LED-0805 D2 LED
-  ( 1 N-000037 )
-  ( 2 N-000030 )
- )
- ( /4EFCBFF1 pad P1 CONN_1
-  ( 1 N-000005 )
- )
- ( /4EFCBFFA pad P2 CONN_1
-  ( 1 N-000018 )
- )
- ( /4EFCBFFF pad P3 CONN_1
-  ( 1 N-000010 )
- )
- ( /4EFCC009 pad P4 CONN_1
-  ( 1 N-000012 )
- )
- ( /4EFCC00B pad P5 CONN_1
-  ( 1 N-000014 )
- )
- ( /4EFCC00C pad P6 CONN_1
+ ( /4EFCBFF1 9v-clip-female P1 CONN_1
   ( 1 N-000016 )
  )
- ( /4EFCBF88 1pin P7 CONN_1
-  ( 1 N-000005 )
+ ( /4EFCBFFA PIN_ARRAY_1 P2 CONN_1
+  ( 1 N-000015 )
  )
- ( /4EFCC439 PIN_ARRAY_5x1 P8 SPI
-  ( 1 N-000034 )
-  ( 2 N-000026 )
-  ( 3 N-000021 )
-  ( 4 N-000022 )
-  ( 5 N-000024 )
+ ( /4EFCBFFF PIN_ARRAY_1 P3 CONN_1
+  ( 1 N-000007 )
  )
- ( /4EFCC876 pin_header_4_2.54mm P9 CONN_4
-  ( 1 DGND )
-  ( 2 VDD )
-  ( 3 AGND )
-  ( 4 VAA )
+ ( /4EFCC009 PIN_ARRAY_1 P4 CONN_1
+  ( 1 N-000009 )
  )
- ( /4EFD05E7 pad P10 CONN_1
+ ( /4EFCC00B PIN_ARRAY_1 P5 CONN_1
+  ( 1 N-000011 )
+ )
+ ( /4EFCC00C PIN_ARRAY_1 P6 CONN_1
+  ( 1 N-000013 )
+ )
+ ( /4EFCBF88 PIN_ARRAY_1 P7 CONN_1
+  ( 1 N-000016 )
+ )
+ ( /4F4500F7 PIN_ARRAY_1 P8 CONN_1
+  ( 1 N-000032 )
+ )
+ ( /4F4500FE PIN_ARRAY_1 P9 CONN_1
+  ( 1 N-000024 )
+ )
+ ( /4EFD05E7 PIN_ARRAY_1 P10 CONN_1
   ( 1 /ref )
  )
- ( /4EFD05FB pad P11 CONN_1
-  ( 1 N-000027 )
- )
- ( /4F3CE2EB pad P12 CONN_1
+ ( /4EFD05FB PIN_ARRAY_1 P11 CONN_1
   ( 1 N-000025 )
  )
- ( /4EFCC08A SM0805 R1 20k
-  ( 1 N-000019 )
-  ( 2 N-000005 )
+ ( /4F3CE2EB PIN_ARRAY_1 P12 CONN_1
+  ( 1 N-000023 )
  )
- ( /4EFCC11F SM0805 R2 20k
+ ( /4F4500FF PIN_ARRAY_1 P13 CONN_1
+  ( 1 N-000017 )
+ )
+ ( /4F450101 PIN_ARRAY_1 P14 CONN_1
+  ( 1 N-000018 )
+ )
+ ( /4F450102 PIN_ARRAY_1 P15 CONN_1
+  ( 1 N-000022 )
+ )
+ ( /4F45010E PIN_ARRAY_1 P16 CONN_1
+  ( 1 DGND )
+ )
+ ( /4F450113 PIN_ARRAY_1 P17 CONN_1
+  ( 1 VDD )
+ )
+ ( /4F450115 PIN_ARRAY_1 P18 CONN_1
+  ( 1 AGND )
+ )
+ ( /4F45011B PIN_ARRAY_1 P19 CONN_1
+  ( 1 VAA )
+ )
+ ( /4EFCC08A SM0603 R1 20k
   ( 1 N-000006 )
-  ( 2 N-000018 )
- )
- ( /4EFCC12C SM0805 R3 20k
-  ( 1 N-000009 )
-  ( 2 N-000010 )
- )
- ( /4EFCC129 SM0805 R4 20k
-  ( 1 N-000011 )
-  ( 2 N-000012 )
- )
- ( /4EFCC128 SM0805 R5 20k
-  ( 1 N-000013 )
-  ( 2 N-000014 )
- )
- ( /4EFCC123 SM0805 R6 20k
-  ( 1 N-000015 )
   ( 2 N-000016 )
  )
- ( /4EFCC26C SM0805 R7 R
-  ( 1 DGND )
-  ( 2 N-000008 )
+ ( /4EFCC11F SM0603 R2 20k
+  ( 1 N-000014 )
+  ( 2 N-000015 )
  )
- ( /4EFCC270 SM0805 R8 R
-  ( 1 DGND )
-  ( 2 N-000030 )
+ ( /4EFCC12C SM0603 R3 20k
+  ( 1 N-000029 )
+  ( 2 N-000007 )
  )
- ( /4EFD05B9 SM0805 R9 20k
-  ( 1 N-000036 )
+ ( /4EFCC129 SM0603 R4 20k
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+ )
+ ( /4EFCC128 SM0603 R5 20k
+  ( 1 N-000010 )
+  ( 2 N-000011 )
+ )
+ ( /4EFCC123 SM0603 R6 20k
+  ( 1 N-000012 )
+  ( 2 N-000013 )
+ )
+ ( /4EFCC26C SM0603 R7 R
+  ( 1 DGND )
+  ( 2 N-000035 )
+ )
+ ( /4EFD05B9 SM0603 R9 20k
+  ( 1 N-000033 )
   ( 2 /ref )
  )
- ( /4EFD043C SM0805 R10 1M
-  ( 1 N-000025 )
-  ( 2 N-000036 )
+ ( /4EFD043C SM0603 R10 1M
+  ( 1 N-000023 )
+  ( 2 N-000033 )
  )
  ( /4EFCA18C pqfp32 U1 ADS1291/2
-  ( 1 N-000029 )
-  ( 2 N-000028 )
-  ( 3 N-000006 )
-  ( 4 N-000019 )
-  ( 5 N-000011 )
-  ( 6 N-000009 )
-  ( 7 N-000031 )
-  ( 8 N-000032 )
-  ( 9 N-000033 )
+  ( 1 N-000028 )
+  ( 2 N-000027 )
+  ( 3 N-000014 )
+  ( 4 N-000006 )
+  ( 5 N-000008 )
+  ( 6 N-000029 )
+  ( 7 N-000026 )
+  ( 8 N-000030 )
+  ( 9 N-000031 )
   ( 10 AGND )
-  ( 11 N-000020 )
+  ( 11 N-000019 )
   ( 12 VAA )
   ( 13 AGND )
   ( 14 VDD )
   ( 15 VDD )
   ( 16 DGND )
   ( 17 ? )
-  ( 18 N-000024 )
-  ( 19 N-000026 )
-  ( 20 N-000034 )
-  ( 21 N-000021 )
-  ( 22 N-000022 )
+  ( 18 N-000022 )
+  ( 19 N-000024 )
+  ( 20 N-000032 )
+  ( 21 N-000017 )
+  ( 22 N-000018 )
   ( 23 VDD )
   ( 24 DGND )
-  ( 25 N-000037 )
-  ( 26 N-000007 )
-  ( 27 N-000017 )
-  ( 28 N-000025 )
-  ( 29 N-000027 )
-  ( 30 N-000036 )
-  ( 31 N-000013 )
-  ( 32 N-000015 )
+  ( 25 ? )
+  ( 26 N-000034 )
+  ( 27 N-000005 )
+  ( 28 N-000023 )
+  ( 29 N-000025 )
+  ( 30 N-000033 )
+  ( 31 N-000010 )
+  ( 32 N-000012 )
  )
 )
 *
@@ -209,15 +215,6 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
 $component R1
  R?
  SM0603
@@ -261,13 +258,6 @@ $component R6
  SM1206
 $endlist
 $component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
  R?
  SM0603
  SM0805

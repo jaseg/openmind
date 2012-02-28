@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 21 Feb 2012 02:41:53 PM CET
+EESchema Schematic File Version 2  date Tue 28 Feb 2012 12:25:18 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "16 feb 2012"
+Date "28 feb 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,23 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_1 P12
-U 1 1 4F3CE2EB
-P 4800 1750
-F 0 "P12" H 4880 1750 40  0000 L CNN
-F 1 "CONN_1" H 4800 1805 30  0001 C CNN
-	1    4800 1750
-	0    -1   -1   0   
-$EndComp
-Text Label 6700 2100 0    60   ~ 0
-vaa
-Text Label 6700 2000 0    60   ~ 0
-agnd
-Text Label 6700 1900 0    60   ~ 0
-vdd
-Text Label 6700 1800 0    60   ~ 0
-gnd
 Wire Wire Line
 	6650 2000 6750 2000
 Wire Wire Line
@@ -70,27 +53,16 @@ Connection ~ 4800 1900
 Wire Wire Line
 	5000 2600 5000 1900
 Wire Wire Line
-	5000 1900 4800 1900
-Wire Wire Line
-	4800 1900 4450 1900
+	5000 1900 4450 1900
 Wire Wire Line
 	4450 2400 4800 2400
 Wire Wire Line
 	6750 2100 6700 2100
 Wire Wire Line
-	6200 3000 6200 3100
-Wire Wire Line
-	6200 3100 6100 3100
-Connection ~ 7100 3000
-Wire Wire Line
-	7100 2750 7100 3000
-Wire Wire Line
-	7100 3000 7100 3100
+	7100 2750 7100 3100
 Connection ~ 3700 4000
 Wire Wire Line
-	3700 3900 3700 4000
-Wire Wire Line
-	3700 4000 3700 4100
+	3700 3900 3700 4100
 Wire Wire Line
 	5400 5100 5400 4850
 Wire Wire Line
@@ -131,6 +103,104 @@ Wire Wire Line
 	3950 2400 3800 2400
 Wire Wire Line
 	6650 1900 6750 1900
+$Comp
+L CONN_1 P19
+U 1 1 4F45011B
+P 6900 2100
+F 0 "P19" H 6980 2100 40  0000 L CNN
+F 1 "CONN_1" H 6900 2155 30  0001 C CNN
+	1    6900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P18
+U 1 1 4F450115
+P 6900 2000
+F 0 "P18" H 6980 2000 40  0000 L CNN
+F 1 "CONN_1" H 6900 2055 30  0001 C CNN
+	1    6900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P17
+U 1 1 4F450113
+P 6900 1900
+F 0 "P17" H 6980 1900 40  0000 L CNN
+F 1 "CONN_1" H 6900 1955 30  0001 C CNN
+	1    6900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P16
+U 1 1 4F45010E
+P 6900 1800
+F 0 "P16" H 6980 1800 40  0000 L CNN
+F 1 "CONN_1" H 6900 1855 30  0001 C CNN
+	1    6900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P15
+U 1 1 4F450102
+P 6250 4000
+F 0 "P15" H 6330 4000 40  0000 L CNN
+F 1 "CONN_1" H 6250 4055 30  0001 C CNN
+	1    6250 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_1 P14
+U 1 1 4F450101
+P 6250 3900
+F 0 "P14" H 6330 3900 40  0000 L CNN
+F 1 "CONN_1" H 6250 3955 30  0001 C CNN
+	1    6250 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_1 P13
+U 1 1 4F4500FF
+P 6250 3800
+F 0 "P13" H 6330 3800 40  0000 L CNN
+F 1 "CONN_1" H 6250 3855 30  0001 C CNN
+	1    6250 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_1 P9
+U 1 1 4F4500FE
+P 6250 3700
+F 0 "P9" H 6330 3700 40  0000 L CNN
+F 1 "CONN_1" H 6250 3755 30  0001 C CNN
+	1    6250 3700
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_1 P8
+U 1 1 4F4500F7
+P 6250 3600
+F 0 "P8" H 6330 3600 40  0000 L CNN
+F 1 "CONN_1" H 6250 3655 30  0001 C CNN
+	1    6250 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_1 P12
+U 1 1 4F3CE2EB
+P 4800 1750
+F 0 "P12" H 4880 1750 40  0000 L CNN
+F 1 "CONN_1" H 4800 1805 30  0001 C CNN
+	1    4800 1750
+	0    -1   -1   0   
+$EndComp
+Text Label 6700 2100 0    60   ~ 0
+vaa
+Text Label 6700 2000 0    60   ~ 0
+agnd
+Text Label 6700 1900 0    60   ~ 0
+vdd
+Text Label 6700 1800 0    60   ~ 0
+gnd
 Text Label 3800 2400 0    60   ~ 0
 ref
 $Comp
@@ -251,15 +321,6 @@ F 1 "AGND" H 6650 1930 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_4 P9
-U 1 1 4EFCC876
-P 7100 1950
-F 0 "P9" V 7050 1950 50  0000 C CNN
-F 1 "CONN_4" V 7150 1950 50  0000 C CNN
-	1    7100 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L VDD #PWR16
 U 1 1 4EFCC86C
 P 6650 1900
@@ -269,15 +330,6 @@ F 1 "VDD" H 6650 2010 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 6100 3500
-$Comp
-L CONN_5 P8
-U 1 1 4EFCC439
-P 6500 3800
-F 0 "P8" V 6450 3800 50  0000 C CNN
-F 1 "SPI" V 6550 3800 50  0000 C CNN
-	1    6500 3800
-	1    0    0    -1  
-$EndComp
 $Comp
 L VDD #PWR13
 U 1 1 4EFCC375
@@ -297,15 +349,6 @@ F 1 "VDD" H 6100 3310 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
-U 1 1 4EFCC270
-P 6850 3000
-F 0 "R8" V 6930 3000 50  0000 C CNN
-F 1 "R" V 6850 3000 50  0000 C CNN
-	1    6850 3000
-	0    1    1    0   
-$EndComp
-$Comp
 L R R7
 U 1 1 4EFCC26C
 P 6850 2750
@@ -313,15 +356,6 @@ F 0 "R7" V 6930 2750 50  0000 C CNN
 F 1 "R" V 6850 2750 50  0000 C CNN
 	1    6850 2750
 	0    1    1    0   
-$EndComp
-$Comp
-L LED D2
-U 1 1 4EFCC261
-P 6400 3000
-F 0 "D2" H 6400 3100 50  0000 C CNN
-F 1 "LED" H 6400 2900 50  0000 C CNN
-	1    6400 3000
-	1    0    0    -1  
 $EndComp
 $Comp
 L LED D1
