@@ -57,3 +57,9 @@ Software/driver
 ---------------
 The interfacing of these ADCs is pretty straightforward. A driver for AVRs currently only supporting the ADS1194
 (16-bit, 4ch version) can be found at https://github.com/jaseg/OpenMind-firmware
+
+What to do with this?
+---------------------
+Just a bunch of ideas
+* http://www.instructables.com/id/Animatronic-Cat-Ears/
+* A sleep cycle-detector that wakes you up by using some LEDs to simulate dawn at *exactly* the right time
