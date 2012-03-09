@@ -10,7 +10,8 @@ What is it?
 -----------
 OpenMind is a take on an open source electroencephalograph, i.e. a device to capture "brain waves" - the tiny electrical
 signals your brain emits when working. By itself, the hardware can also be used as "just" a pretty high-resolution
-albeit slow ADC to upgrade your arduino (imagine gaining 12 bits of resolution...).
+albeit slow ADC to upgrade your arduino (imagine gaining 12 bits of resolution...). I suspect that the hardware should
+also easily be sensible enough to directly measure muscle action potentials.
 
 Introduction
 ------------
@@ -63,3 +64,6 @@ What to do with this?
 Just a bunch of ideas
 * http://www.instructables.com/id/Animatronic-Cat-Ears/
 * A sleep cycle-detector that wakes you up by using some LEDs to simulate dawn at *exactly* the right time
+* A muscle-computer-interface, i.e. a device that senses when you physically move your muscles by measuring the quite
+  strong signals your brain sends to them. For reference see William Gibson: Burning Chrome (though, in comparision to
+the one used tehre, openmind is still one-way).
