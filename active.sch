@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 Feb 2012 12:25:18 PM CET
+EESchema Schematic File Version 2  date Sat 03 Mar 2012 05:15:58 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 feb 2012"
+Date "3 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,32 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 3700 3700 2    60   ~ 0
+IN3N
+Text Label 3700 3600 2    60   ~ 0
+IN3P
+Text Label 3700 3450 2    60   ~ 0
+IN2N
+Text Label 3700 3350 2    60   ~ 0
+IN2P
+Text Label 3700 3200 2    60   ~ 0
+IN1N
+Text Label 3700 3100 2    60   ~ 0
+IN1P
+Text Label 6100 4000 0    60   ~ 0
+CS
+Text Label 6100 3900 0    60   ~ 0
+DRDY
+Text Label 6100 3800 0    60   ~ 0
+DOUT
+Text Label 6100 3700 0    60   ~ 0
+DIN
+Text Label 6100 3600 0    60   ~ 0
+SCLK
+Text Label 4450 1900 0    60   ~ 0
+RLDINV
+Text Label 4900 2600 1    60   ~ 0
+RLDIN
 Wire Wire Line
 	6650 2000 6750 2000
 Wire Wire Line
