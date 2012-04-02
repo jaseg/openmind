@@ -61,9 +61,10 @@ The interfacing of these ADCs is pretty straightforward. A driver for AVRs curre
 
 What to do with this?
 ---------------------
-Just a bunch of ideas
+Just a bunch of ideas:
+
 * http://www.instructables.com/id/Animatronic-Cat-Ears/
 * A sleep cycle-detector that wakes you up by using some LEDs to simulate dawn at *exactly* the right time
-* A muscle-computer-interface, i.e. a device that senses when you physically move your muscles by measuring the quite
+* A muscle-computer-interface, i.e. a device that senses when you physically move your muscles by measuring the pretty
   strong signals your brain sends to them. For reference see William Gibson: Burning Chrome (though, in comparision to
-the one used tehre, openmind is still one-way).
+  the one used there, openmind is still one-way).
