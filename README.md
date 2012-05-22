@@ -15,29 +15,30 @@ also easily be sensible enough to directly measure muscle action potentials.
 
 Introduction
 ------------
-This repository contains the second version of the hardware. This is a modular system: Each PCB can (depending on what
+This repository contains the third version of the hardware. This is a modular system: Each PCB can (depending on what
 chip you put on it and what you want to do) measure signals on one or two channels with one (absolute) or two
-(difference) electrodes each. The chips used are ADS129X, 24-bit ADSs with integrated AC hum filter and preamplifier
+(differential) electrodes each. The chips used are ADS129X, 24-bit ADCs with integrated AC hum filter and preamplifier
 with differential inputs. The ADS1291 contains one, the ADS1292 two channels.
-In a one-channel configuration one board is the digital equivalent of a conventional EEG's active electrode.
+In a single-channel configuration one board is the digital equivalent of a conventional EEG's active electrode.
 
-All "digital active electrodes" can be connected on one SPI bus with one !CS-line per module - so a bunch of eight of
-them can be controlled via three SPI pins and 8 !CS pins.
+All these "digital active electrodes" can be connected on one SPI bus with one !CS-line per module - so a bunch of eight
+of them can be controlled via three SPI pins and 8 !CS pins (which themselves can be multiplexed from three pins using a
+small logic IC)
 
 Electrode Connections
 ---------------------
 ### Electrode modes
 In absolute mode you connect one electrode to each channel's positive (non-inverting) input, and connect the negative
-(inverting) inputs to the reference signal (as denoted on the schematic/PCB).
-In absolute mode you connect one electrode to each of the two inputs per channel and the device will measure the
-potential between each pair of them.
+(inverting) input to the reference signal (as denoted on the schematic/PCB).
+In differential mode you connect one electrode to each of the two inputs of each channel and the device will measure the
+potential between each pair.
 
 ### Right-leg drive (RLD)
 The RLD is an op-amp which is used to cancel out LF interference with the EEG signal. It works by continuously comparing
 a reference potential (normally VDD/2) with an average of all electrode signals and driving a dedicated reference
 electrode with the difference. This signal is very weak and thus not noticable except in the measurements.
 Multiple devices can be cascaded by connecting their ``RLD_INV`` pins together and powering down all but one RLD. This
-RLD's output signal is used to provide the reference voltage. 
+RLD's output signal is used to provide the reference voltage.
 The active RLD can be selected at runtime, and you could even select the reference electrode at runtime from any
 electrode connected to one of the inputs - sacrificing that one electrode.
 
@@ -52,7 +53,7 @@ The ``RLDIN/RLDREF`` signal can be routed to any of the device's electrodes (wha
 any of the ADC inputs - so you can connect some auxiliary signal to this pin and measure it with any ADC.
 
 The pad on the bottom side of the board is intended to be used to surface-mount type 261k or 269k 9v battery connectors
-(available at digikey). I did not yet check this, but I will as soon as I order at digikey.
+(available at digikey). I did not yet physically check it, but I will as soon as I order at digikey.
 
 Software/driver
 ---------------
