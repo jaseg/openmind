@@ -1,0 +1,311 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 26 Dec 2011 02:12:57 PM CET
+
+BeginCmp
+TimeStamp = /4EF0E17F;
+Reference = C1;
+ValeurCmp = 22µ;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0E192;
+Reference = C2;
+ValeurCmp = 1µ;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0E1A5;
+Reference = C3;
+ValeurCmp = 1µ;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0E1A9;
+Reference = C4;
+ValeurCmp = 1µ;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF39B67;
+Reference = C5;
+ValeurCmp = 1µ_cer_(min);
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF39B5A;
+Reference = C6;
+ValeurCmp = 1µ_cer_(min);
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DDBE;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DDC2;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DDCB;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DDCE;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DFEA;
+Reference = GS1;
+ValeurCmp = CLKSEL;
+IdModule  = GS3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF8722C;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM1210L;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA5A;
+Reference = P1;
+ValeurCmp = COAX;
+IdModule  = coax_direct;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA59;
+Reference = P2;
+ValeurCmp = COAX;
+IdModule  = coax_direct;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA6F;
+Reference = P3;
+ValeurCmp = COAX;
+IdModule  = coax_direct;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA70;
+Reference = P4;
+ValeurCmp = COAX;
+IdModule  = coax_direct;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0D8D4;
+Reference = P5;
+ValeurCmp = COAX;
+IdModule  = coax_direct;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0D8D9;
+Reference = P6;
+ValeurCmp = COAX;
+IdModule  = coax_direct;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA72;
+Reference = P7;
+ValeurCmp = COAX;
+IdModule  = coax_direct;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA71;
+Reference = P8;
+ValeurCmp = COAX;
+IdModule  = coax_direct;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF39B39;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0E0A4;
+Reference = P10;
+ValeurCmp = !DRDY;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DE96;
+Reference = P11;
+ValeurCmp = DOUT;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DE92;
+Reference = P12;
+ValeurCmp = SCLK;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0E082;
+Reference = P13;
+ValeurCmp = !CS;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DFB2;
+Reference = P14;
+ValeurCmp = !CLK;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0E123;
+Reference = P15;
+ValeurCmp = !PWDN;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DE8C;
+Reference = P16;
+ValeurCmp = DIN;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF870CD;
+Reference = P17;
+ValeurCmp = VCC;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF870DC;
+Reference = P18;
+ValeurCmp = GND;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA5E;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA5C;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA6B;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA6D;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0D524;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0D563;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA76;
+Reference = R13;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DA74;
+Reference = R15;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DD7F;
+Reference = R17;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DD8D;
+Reference = R18;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DD85;
+Reference = R19;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DD92;
+Reference = R20;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF0DD56;
+Reference = U1;
+ValeurCmp = ADS1294;
+IdModule  = TQFP_64;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF39AE2;
+Reference = U2;
+ValeurCmp = TC1055;
+IdModule  = SOT23-5;
+EndCmp
+
+EndListe

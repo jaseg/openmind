@@ -1,0 +1,269 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Tue 28 Feb 2012 12:08:28 PM CET
+
+BeginCmp
+TimeStamp = /4EFCABB4;
+Reference = C1;
+ValeurCmp = 10µ_cer.;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCA4F7;
+Reference = C2;
+ValeurCmp = 4n7;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCA4FC;
+Reference = C3;
+ValeurCmp = 4n7;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCA95E;
+Reference = C4;
+ValeurCmp = 1µ;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCA959;
+Reference = C5;
+ValeurCmp = 1µ;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCABF9;
+Reference = C6;
+ValeurCmp = 10µ_cer.;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCABF5;
+Reference = C7;
+ValeurCmp = 10µ_cer.;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFD0435;
+Reference = C8;
+ValeurCmp = 1n5;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC25B;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCBFF1;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = 9v-clip-female;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCBFFA;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCBFFF;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC009;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC00B;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC00C;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCBF88;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4500F7;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4500FE;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFD05E7;
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFD05FB;
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3CE2EB;
+Reference = P12;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4500FF;
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F450101;
+Reference = P14;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F450102;
+Reference = P15;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F45010E;
+Reference = P16;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F450113;
+Reference = P17;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F450115;
+Reference = P18;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F45011B;
+Reference = P19;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC08A;
+Reference = R1;
+ValeurCmp = 20k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC11F;
+Reference = R2;
+ValeurCmp = 20k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC12C;
+Reference = R3;
+ValeurCmp = 20k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC129;
+Reference = R4;
+ValeurCmp = 20k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC128;
+Reference = R5;
+ValeurCmp = 20k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC123;
+Reference = R6;
+ValeurCmp = 20k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCC26C;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFD05B9;
+Reference = R9;
+ValeurCmp = 20k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFD043C;
+Reference = R10;
+ValeurCmp = 1M;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EFCA18C;
+Reference = U1;
+ValeurCmp = ADS1291/2;
+IdModule  = pqfp32;
+EndCmp
+
+EndListe

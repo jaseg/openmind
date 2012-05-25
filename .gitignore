@@ -1,0 +1,14 @@
+*.plt
+*.txt
+*.bak
+*.bck
+*.bcm
+*.gbl
+*.gtl
+*.gbo
+*.gto
+*.000
+*cache*
+*.dcm
+*.emp
+$safepcb.brd
