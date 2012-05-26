@@ -1,0 +1,943 @@
+# EESchema Netlist Version 1.1 created  Fri 25 May 2012 10:34:42 PM CEST
+(
+ ( /4FBFE4DF $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 /channel1/Vout )
+ )
+ ( /4FBFE4DC $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 /channel2/Vout )
+ )
+ ( /4FBFE495 $noname  P14 CONN_1 {Lib=CONN_1}
+  (    1 /ti-afe12/drdy )
+ )
+ ( /4FBFE491 $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 /ti-afe12/cs )
+ )
+ ( /4FBFD87D $noname  P13 CONN_1 {Lib=CONN_1}
+  (    1 N-000028 )
+ )
+ ( /4FBFD879 $noname  P12 CONN_1 {Lib=CONN_1}
+  (    1 N-000027 )
+ )
+ ( /4FBFB0CC $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 N-000032 )
+ )
+ ( /4FBFB0C9 $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 N-000029 )
+ )
+ ( /4FBFB0EB $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 N-000034 )
+ )
+ ( /4FBFB0E8 $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 N-000030 )
+ )
+ ( /4FBFAA02 $noname  R4 R {Lib=R}
+  (    1 N-000052 )
+  (    2 DGND )
+ )
+ ( /4FBFA9FE $noname  R8 R {Lib=R}
+  (    1 N-000053 )
+  (    2 DGND )
+ )
+ ( /4FBFA9EC $noname  D2 LED {Lib=LED}
+  (    1 /ti-afe12/gpio1 )
+  (    2 N-000053 )
+ )
+ ( /4FBFA9E6 $noname  D1 LED {Lib=LED}
+  (    1 /ti-afe12/gpio2 )
+  (    2 N-000052 )
+ )
+ ( /4FBFA2C9 $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 AVCC )
+  (    2 AGND )
+  (    3 /ti-afe12/rldinv )
+  (    4 AGND )
+ )
+ ( /4FBFA28E $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 AVCC )
+  (    2 AGND )
+  (    3 /ti-afe12/rldinv )
+  (    4 AGND )
+ )
+ ( /4FBE9157 $noname  20k1 20k {Lib=R}
+  (    1 N-000055 )
+  (    2 /ti-afe12/pwdn/reset )
+ )
+ ( /4FBF875A $noname  C4 1000n {Lib=C}
+  (    1 DVCC )
+  (    2 DGND )
+ )
+ ( /4FBF8758 $noname  C3 1000n {Lib=C}
+  (    1 AVCC )
+  (    2 AGND )
+ )
+ ( /4FBE9266 $noname  C2 100n {Lib=C}
+  (    1 Vref )
+  (    2 AGND )
+ )
+ ( /4FBE9234 $noname  R7 R {Lib=R}
+  (    1 N-000010 )
+  (    2 AGND )
+ )
+ ( /4FBE9220 $noname  R6 R {Lib=R}
+  (    1 AVCC )
+  (    2 N-000010 )
+ )
+ ( /4FBE921C $noname  U1 TL071 {Lib=TL071}
+  (    2 Vref )
+  (    3 N-000010 )
+  (    4 AGND )
+  (    6 Vref )
+  (    7 AVCC )
+ )
+ ( /4FBE9151 $noname  R5 20k {Lib=R}
+  (    1 N-000023 )
+  (    2 /ti-afe12/start )
+ )
+ ( /4FBE914D $noname  R3 20k {Lib=R}
+  (    1 N-000019 )
+  (    2 ? )
+ )
+ ( /4FBE914A $noname  R2 20k {Lib=R}
+  (    1 N-000018 )
+  (    2 /ti-afe12/din )
+ )
+ ( /4FBE9147 $noname  R1 20k {Lib=R}
+  (    1 N-000016 )
+  (    2 /ti-afe12/sclk )
+ )
+ ( /4FBE6BA3 $noname  R49 20k {Lib=R}
+  (    1 /ti-afe12/rldout )
+  (    2 N-000001 )
+ )
+ ( /4FBE6B6E SMA  J2 SMA {Lib=SMA}
+  (    1 N-000001 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FB7BECA $noname  L2 INDUCTOR {Lib=INDUCTOR}
+  (    1 AGND )
+  (    2 DGND )
+ )
+ ( /4FB7BEC6 $noname  L1 INDUCTOR {Lib=INDUCTOR}
+  (    1 AVCC )
+  (    2 +5V )
+ )
+ ( /4FB7BEB1 $noname  C1 1µ {Lib=C}
+  (    1 AVCC )
+  (    2 AGND )
+ )
+ ( /4FB7BD87 $noname  SHIELD1 ARDUINO_SHIELD {Lib=ARDUINO_SHIELD}
+  (    0 N-000028 )
+  (    1 N-000027 )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 N-000055 )
+  (   5V +5V )
+  (    6 N-000023 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 N-000019 )
+  (   11 N-000018 )
+  (   12 /ti-afe12/dout )
+  (   13 N-000016 )
+  (  3V3 DVCC )
+  (  AD0 ? )
+  (  AD1 ? )
+  (  AD2 ? )
+  (  AD3 ? )
+  (  AD4 ? )
+  (  AD5 ? )
+  ( AREF N-000029 )
+  ( GND1 DGND )
+  ( GND2 DGND )
+  ( GND3 N-000032 )
+  (  RST N-000034 )
+  ( V_IN N-000030 )
+ )
+ ( /4FBE6CE5/4FBE6C5A SMA  J5 SMA {Lib=SMA}
+  (    1 N-000084 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FBE6CE5/4FBE6C59 SMA  J6 SMA {Lib=SMA}
+  (    1 N-000083 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FBE6CE5/4FBE6C58 $noname  R58 20k {Lib=R}
+  (    1 N-000084 )
+  (    2 /ti-afe12/in2n )
+ )
+ ( /4FBE6CE5/4FBE6C57 $noname  R59 20k {Lib=R}
+  (    1 N-000083 )
+  (    2 /ti-afe12/in2p )
+ )
+ ( /4FBE6C46/4FBE6C5A SMA  J3 SMA {Lib=SMA}
+  (    1 N-000082 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FBE6C46/4FBE6C59 SMA  J4 SMA {Lib=SMA}
+  (    1 N-000081 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FBE6C46/4FBE6C58 $noname  R56 20k {Lib=R}
+  (    1 N-000082 )
+  (    2 /ti-afe12/in1n )
+ )
+ ( /4FBE6C46/4FBE6C57 $noname  R57 20k {Lib=R}
+  (    1 N-000081 )
+  (    2 /ti-afe12/in1p )
+ )
+ ( /4FBE5D9F/4FBE5F3F $noname  R54 1M {Lib=R}
+  (    1 /ti-afe12/rldinv )
+  (    2 /ti-afe12/rldout )
+ )
+ ( /4FBE5D9F/4FBE5F3C $noname  C22 1n5 {Lib=C}
+  (    1 /ti-afe12/rldinv )
+  (    2 /ti-afe12/rldout )
+ )
+ ( /4FBE5D9F/4FBE5EDA $noname  C21 10µ_ceramic {Lib=C}
+  (    1 N-000074 )
+  (    2 AGND )
+ )
+ ( /4FBE5D9F/4FBE5DCB $noname  U13 ADS1291/2 {Lib=ADS1291/2}
+  (    1 N-000078 )
+  (    2 N-000079 )
+  (    3 /ti-afe12/in1n )
+  (    4 /ti-afe12/in1p )
+  (    5 /ti-afe12/in2n )
+  (    6 /ti-afe12/in2p )
+  (    7 N-000077 )
+  (    8 N-000075 )
+  (    9 N-000074 )
+  (   10 AGND )
+  (   11 N-000080 )
+  (   12 AVCC )
+  (   13 AGND )
+  (   14 DVCC )
+  (   15 /ti-afe12/pwdn/reset )
+  (   16 /ti-afe12/start )
+  (   17 ? )
+  (   18 /ti-afe12/cs )
+  (   19 /ti-afe12/din )
+  (   20 /ti-afe12/sclk )
+  (   21 /ti-afe12/dout )
+  (   22 /ti-afe12/drdy )
+  (   23 DVCC )
+  (   24 DGND )
+  (   25 /ti-afe12/gpio2 )
+  (   26 /ti-afe12/gpio1 )
+  (   27 N-000076 )
+  (   28 /ti-afe12/rldinv )
+  (   29 ? )
+  (   30 /ti-afe12/rldout )
+  (   31 ? )
+  (   32 ? )
+ )
+ ( /4FBE5D9F/4FBE5DC8 $noname  C23 4n7 {Lib=C}
+  (    1 N-000078 )
+  (    2 N-000079 )
+ )
+ ( /4FBE5D9F/4FBE5DC7 $noname  C24 4n7 {Lib=C}
+  (    1 N-000077 )
+  (    2 N-000075 )
+ )
+ ( /4FBE5D9F/4FBE5DC6 $noname  C25 1µ {Lib=C}
+  (    1 N-000080 )
+  (    2 AGND )
+ )
+ ( /4FBE5D9F/4FBE5DC5 $noname  C26 1µ {Lib=C}
+  (    1 N-000076 )
+  (    2 AGND )
+ )
+ ( /4FB7BCB8/4FBE8C14 $noname  U4 INA155 {Lib=AD620}
+  (    1 N-000065 )
+  (    2 /ti-afe12/in2p )
+  (    3 /ti-afe12/in2n )
+  (    4 AGND )
+  (    5 Vref )
+  (    6 N-000068 )
+  (    7 AVCC )
+  (    8 N-000067 )
+ )
+ ( /4FB7BCB8/4FB7BB90 $noname  C14 1µ {Lib=C}
+  (    1 N-000068 )
+  (    2 N-000072 )
+ )
+ ( /4FB7BCB8/4FB7BB8F $noname  R37 2k2 {Lib=R}
+  (    1 N-000072 )
+  (    2 N-000071 )
+ )
+ ( /4FB7BCB8/4FB7BB8E $noname  R36 1M {Lib=R}
+  (    1 AGND )
+  (    2 N-000072 )
+ )
+ ( /4FB7BCB8/4FB7BB8C $noname  R40 10k {Lib=R}
+  (    1 N-000069 )
+  (    2 /channel2/Vout )
+ )
+ ( /4FB7BCB8/4FB7BB8B $noname  C16 440n {Lib=C}
+  (    1 /channel2/Vout )
+  (    2 AGND )
+ )
+ ( /4FB7BCB8/4FB7BB89 $noname  C15 6n8 {Lib=C}
+  (    1 N-000071 )
+  (    2 N-000069 )
+ )
+ ( /4FB7BCB8/4FB7BB88 $noname  R39 1M {Lib=R}
+  (    1 N-000071 )
+  (    2 N-000069 )
+ )
+ ( /4FB7BCB8/4FB7BB7E $noname  R35 20k {Lib=R}
+  (    1 N-000067 )
+  (    2 N-000065 )
+ )
+ ( /4FB7BCB8/4FB7BB7D $noname  RV5 10k {Lib=POT}
+  (    1 N-000066 )
+  (    2 AGND )
+  (    3 N-000070 )
+ )
+ ( /4FB7BCB8/4FB7BB7C $noname  U10 CA3140 {Lib=CA3140}
+  (    1 N-000070 )
+  (    2 N-000071 )
+  (    3 Vref )
+  (    4 AGND )
+  (    5 N-000066 )
+  (    6 N-000069 )
+  (    7 AVCC )
+  (    8 ? )
+ )
+ ( /4FB7B986/4FBE8C14 $noname  U5 INA155 {Lib=AD620}
+  (    1 N-000056 )
+  (    2 /ti-afe12/in1p )
+  (    3 /ti-afe12/in1n )
+  (    4 AGND )
+  (    5 Vref )
+  (    6 N-000057 )
+  (    7 AVCC )
+  (    8 N-000060 )
+ )
+ ( /4FB7B986/4FB7BB90 $noname  C17 1µ {Lib=C}
+  (    1 N-000057 )
+  (    2 N-000061 )
+ )
+ ( /4FB7B986/4FB7BB8F $noname  R45 2k2 {Lib=R}
+  (    1 N-000061 )
+  (    2 N-000063 )
+ )
+ ( /4FB7B986/4FB7BB8E $noname  R44 1M {Lib=R}
+  (    1 AGND )
+  (    2 N-000061 )
+ )
+ ( /4FB7B986/4FB7BB8C $noname  R48 10k {Lib=R}
+  (    1 N-000062 )
+  (    2 /channel1/Vout )
+ )
+ ( /4FB7B986/4FB7BB8B $noname  C19 440n {Lib=C}
+  (    1 /channel1/Vout )
+  (    2 AGND )
+ )
+ ( /4FB7B986/4FB7BB89 $noname  C18 6n8 {Lib=C}
+  (    1 N-000063 )
+  (    2 N-000062 )
+ )
+ ( /4FB7B986/4FB7BB88 $noname  R47 1M {Lib=R}
+  (    1 N-000063 )
+  (    2 N-000062 )
+ )
+ ( /4FB7B986/4FB7BB7E $noname  R43 20k {Lib=R}
+  (    1 N-000060 )
+  (    2 N-000056 )
+ )
+ ( /4FB7B986/4FB7BB7D $noname  RV6 10k {Lib=POT}
+  (    1 N-000058 )
+  (    2 AGND )
+  (    3 N-000059 )
+ )
+ ( /4FB7B986/4FB7BB7C $noname  U12 CA3140 {Lib=CA3140}
+  (    1 N-000059 )
+  (    2 N-000063 )
+  (    3 Vref )
+  (    4 AGND )
+  (    5 N-000058 )
+  (    6 N-000062 )
+  (    7 AVCC )
+  (    8 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component 20k1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R49
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R58
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R59
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R56
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R57
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R54
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component R37
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R40
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component R39
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component R45
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R44
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R48
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component R47
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R43
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ J2 1
+ R49 2
+Net 2 "/ti-afe12/rldout" "rldout"
+ R54 2
+ C22 2
+ U13 30
+ R49 1
+Net 3 "/ti-afe12/in1n" "in1n"
+ U13 3
+ R56 2
+ U5 3
+Net 4 "/ti-afe12/in1p" "in1p"
+ U13 4
+ R57 2
+ U5 2
+Net 5 "/ti-afe12/in2n" "in2n"
+ U4 3
+ U13 5
+ R58 2
+Net 6 "/ti-afe12/in2p" "in2p"
+ U13 6
+ U4 2
+ R59 2
+Net 8 "AGND" "AGND"
+ RV6 2
+ U12 4
+ R44 1
+ C19 2
+ U4 4
+ R36 1
+ U10 4
+ P3 4
+ P1 4
+ P1 2
+ P3 2
+ C3 2
+ U5 4
+ C26 2
+ C25 2
+ U13 10
+ U13 13
+ J4 5
+ J4 4
+ J4 3
+ J4 2
+ J3 5
+ J3 4
+ J3 3
+ RV5 2
+ J3 2
+ C16 2
+ J5 2
+ J5 3
+ J5 4
+ J5 5
+ J6 2
+ C21 2
+ J6 4
+ J6 5
+ J6 3
+ L2 1
+ J2 5
+ J2 3
+ J2 4
+ U1 4
+ C2 2
+ R7 2
+ J2 2
+ C1 2
+Net 9 "AVCC" "AVCC"
+ L1 1
+ U12 7
+ C1 1
+ U5 7
+ U1 7
+ P1 1
+ U13 12
+ U4 7
+ R6 1
+ C3 1
+ P3 1
+ U10 7
+Net 10 "" ""
+ R7 1
+ U1 3
+ R6 2
+Net 11 "Vref" "Vref"
+ U12 3
+ U1 6
+ U10 3
+ U4 5
+ U1 2
+ C2 1
+ U5 5
+Net 16 "" ""
+ R1 1
+ SHIELD1 13
+Net 17 "/ti-afe12/dout" "dout"
+ SHIELD1 12
+ U13 21
+Net 18 "" ""
+ R2 1
+ SHIELD1 11
+Net 19 "" ""
+ R3 1
+ SHIELD1 10
+Net 23 "" ""
+ SHIELD1 6
+ R5 1
+Net 27 "" ""
+ SHIELD1 1
+ P12 1
+Net 28 "" ""
+ P13 1
+ SHIELD1 0
+Net 29 "" ""
+ P9 1
+ SHIELD1 AREF
+Net 30 "" ""
+ SHIELD1 V_IN
+ P6 1
+Net 31 "/channel2/Vout" "Vout"
+ C16 1
+ R40 2
+ P8 1
+Net 32 "" ""
+ SHIELD1 GND3
+ P10 1
+Net 33 "DGND" "DGND"
+ L2 2
+ R4 2
+ C4 2
+ U13 24
+ SHIELD1 GND2
+ SHIELD1 GND1
+ R8 2
+Net 34 "" ""
+ SHIELD1 RST
+ P5 1
+Net 37 "DVCC" "DVCC"
+ SHIELD1 3V3
+ U13 14
+ U13 23
+ C4 1
+Net 39 "/ti-afe12/start" "start"
+ R5 2
+ U13 16
+Net 40 "/ti-afe12/sclk" "sclk"
+ U13 20
+ R1 2
+Net 41 "/ti-afe12/din" "din"
+ U13 19
+ R2 2
+Net 42 "/ti-afe12/drdy" "drdy"
+ P14 1
+ U13 22
+Net 43 "/ti-afe12/cs" "cs"
+ U13 18
+ P11 1
+Net 44 "/ti-afe12/pwdn/reset" "pwdn/reset"
+ 20k1 2
+ U13 15
+Net 47 "/ti-afe12/rldinv" "rldinv"
+ R54 1
+ P1 3
+ P3 3
+ U13 28
+ C22 1
+Net 49 "/channel1/Vout" "Vout"
+ R48 2
+ C19 1
+ P7 1
+Net 50 "+5V" "+5V"
+ SHIELD1 5V
+ L1 2
+Net 51 "/ti-afe12/gpio2" "gpio2"
+ U13 25
+ D1 1
+Net 52 "" ""
+ D1 2
+ R4 1
+Net 53 "" ""
+ R8 1
+ D2 2
+Net 54 "/ti-afe12/gpio1" "gpio1"
+ U13 26
+ D2 1
+Net 55 "" ""
+ SHIELD1 5
+ 20k1 1
+Net 56 "" ""
+ R43 2
+ U5 1
+Net 57 "" ""
+ U5 6
+ C17 1
+Net 58 "" ""
+ RV6 1
+ U12 5
+Net 59 "" ""
+ U12 1
+ RV6 3
+Net 60 "" ""
+ U5 8
+ R43 1
+Net 61 "" ""
+ C17 2
+ R45 1
+ R44 2
+Net 62 "" ""
+ U12 6
+ R48 1
+ C18 2
+ R47 2
+Net 63 "" ""
+ C18 1
+ R47 1
+ U12 2
+ R45 2
+Net 65 "" ""
+ U4 1
+ R35 2
+Net 66 "" ""
+ U10 5
+ RV5 1
+Net 67 "" ""
+ R35 1
+ U4 8
+Net 68 "" ""
+ C14 1
+ U4 6
+Net 69 "" ""
+ U10 6
+ R40 1
+ C15 2
+ R39 2
+Net 70 "" ""
+ U10 1
+ RV5 3
+Net 71 "" ""
+ R39 1
+ C15 1
+ U10 2
+ R37 2
+Net 72 "" ""
+ C14 2
+ R37 1
+ R36 2
+Net 74 "" ""
+ C21 1
+ U13 9
+Net 75 "" ""
+ C24 2
+ U13 8
+Net 76 "" ""
+ C26 1
+ U13 27
+Net 77 "" ""
+ C24 1
+ U13 7
+Net 78 "" ""
+ C23 1
+ U13 1
+Net 79 "" ""
+ C23 2
+ U13 2
+Net 80 "" ""
+ U13 11
+ C25 1
+Net 81 "" ""
+ J4 1
+ R57 1
+Net 82 "" ""
+ R56 1
+ J3 1
+Net 83 "" ""
+ R59 1
+ J6 1
+Net 84 "" ""
+ J5 1
+ R58 1
+}
+#End
