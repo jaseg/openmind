@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fri 25 May 2012 10:34:42 PM CEST
+# EESchema Netlist Version 1.1 created  Sat 26 May 2012 12:20:08 PM CEST
 (
  ( /4FBFE4DF $noname  P7 CONN_1 {Lib=CONN_1}
   (    1 /channel1/Vout )
@@ -18,33 +18,30 @@
  ( /4FBFD879 $noname  P12 CONN_1 {Lib=CONN_1}
   (    1 N-000027 )
  )
- ( /4FBFB0CC $noname  P10 CONN_1 {Lib=CONN_1}
-  (    1 N-000032 )
- )
  ( /4FBFB0C9 $noname  P9 CONN_1 {Lib=CONN_1}
   (    1 N-000029 )
  )
  ( /4FBFB0EB $noname  P5 CONN_1 {Lib=CONN_1}
-  (    1 N-000034 )
+  (    1 N-000033 )
  )
  ( /4FBFB0E8 $noname  P6 CONN_1 {Lib=CONN_1}
   (    1 N-000030 )
  )
  ( /4FBFAA02 $noname  R4 R {Lib=R}
-  (    1 N-000052 )
+  (    1 N-000051 )
   (    2 DGND )
  )
  ( /4FBFA9FE $noname  R8 R {Lib=R}
-  (    1 N-000053 )
+  (    1 N-000052 )
   (    2 DGND )
  )
  ( /4FBFA9EC $noname  D2 LED {Lib=LED}
   (    1 /ti-afe12/gpio1 )
-  (    2 N-000053 )
+  (    2 N-000052 )
  )
  ( /4FBFA9E6 $noname  D1 LED {Lib=LED}
   (    1 /ti-afe12/gpio2 )
-  (    2 N-000052 )
+  (    2 N-000051 )
  )
  ( /4FBFA2C9 $noname  P1 CONN_4 {Lib=CONN_4}
   (    1 AVCC )
@@ -59,7 +56,7 @@
   (    4 AGND )
  )
  ( /4FBE9157 $noname  20k1 20k {Lib=R}
-  (    1 N-000055 )
+  (    1 N-000054 )
   (    2 /ti-afe12/pwdn/reset )
  )
  ( /4FBF875A $noname  C4 1000n {Lib=C}
@@ -134,7 +131,7 @@
   (    2 ? )
   (    3 ? )
   (    4 ? )
-  (    5 N-000055 )
+  (    5 N-000054 )
   (   5V +5V )
   (    6 N-000023 )
   (    7 ? )
@@ -154,52 +151,52 @@
   ( AREF N-000029 )
   ( GND1 DGND )
   ( GND2 DGND )
-  ( GND3 N-000032 )
-  (  RST N-000034 )
+  ( GND3 DGND )
+  (  RST N-000033 )
   ( V_IN N-000030 )
  )
  ( /4FBE6CE5/4FBE6C5A SMA  J5 SMA {Lib=SMA}
-  (    1 N-000084 )
+  (    1 N-000083 )
   (    2 AGND )
   (    3 AGND )
   (    4 AGND )
   (    5 AGND )
  )
  ( /4FBE6CE5/4FBE6C59 SMA  J6 SMA {Lib=SMA}
-  (    1 N-000083 )
+  (    1 N-000082 )
   (    2 AGND )
   (    3 AGND )
   (    4 AGND )
   (    5 AGND )
  )
  ( /4FBE6CE5/4FBE6C58 $noname  R58 20k {Lib=R}
-  (    1 N-000084 )
+  (    1 N-000083 )
   (    2 /ti-afe12/in2n )
  )
  ( /4FBE6CE5/4FBE6C57 $noname  R59 20k {Lib=R}
-  (    1 N-000083 )
+  (    1 N-000082 )
   (    2 /ti-afe12/in2p )
  )
  ( /4FBE6C46/4FBE6C5A SMA  J3 SMA {Lib=SMA}
-  (    1 N-000082 )
+  (    1 N-000081 )
   (    2 AGND )
   (    3 AGND )
   (    4 AGND )
   (    5 AGND )
  )
  ( /4FBE6C46/4FBE6C59 SMA  J4 SMA {Lib=SMA}
-  (    1 N-000081 )
+  (    1 N-000080 )
   (    2 AGND )
   (    3 AGND )
   (    4 AGND )
   (    5 AGND )
  )
  ( /4FBE6C46/4FBE6C58 $noname  R56 20k {Lib=R}
-  (    1 N-000082 )
+  (    1 N-000081 )
   (    2 /ti-afe12/in1n )
  )
  ( /4FBE6C46/4FBE6C57 $noname  R57 20k {Lib=R}
-  (    1 N-000081 )
+  (    1 N-000080 )
   (    2 /ti-afe12/in1p )
  )
  ( /4FBE5D9F/4FBE5F3F $noname  R54 1M {Lib=R}
@@ -211,21 +208,21 @@
   (    2 /ti-afe12/rldout )
  )
  ( /4FBE5D9F/4FBE5EDA $noname  C21 10µ_ceramic {Lib=C}
-  (    1 N-000074 )
+  (    1 N-000073 )
   (    2 AGND )
  )
  ( /4FBE5D9F/4FBE5DCB $noname  U13 ADS1291/2 {Lib=ADS1291/2}
-  (    1 N-000078 )
-  (    2 N-000079 )
+  (    1 N-000077 )
+  (    2 N-000078 )
   (    3 /ti-afe12/in1n )
   (    4 /ti-afe12/in1p )
   (    5 /ti-afe12/in2n )
   (    6 /ti-afe12/in2p )
-  (    7 N-000077 )
-  (    8 N-000075 )
-  (    9 N-000074 )
+  (    7 N-000076 )
+  (    8 N-000074 )
+  (    9 N-000073 )
   (   10 AGND )
-  (   11 N-000080 )
+  (   11 N-000079 )
   (   12 AVCC )
   (   13 AGND )
   (   14 DVCC )
@@ -241,7 +238,7 @@
   (   24 DGND )
   (   25 /ti-afe12/gpio2 )
   (   26 /ti-afe12/gpio1 )
-  (   27 N-000076 )
+  (   27 N-000075 )
   (   28 /ti-afe12/rldinv )
   (   29 ? )
   (   30 /ti-afe12/rldout )
@@ -249,45 +246,45 @@
   (   32 ? )
  )
  ( /4FBE5D9F/4FBE5DC8 $noname  C23 4n7 {Lib=C}
-  (    1 N-000078 )
-  (    2 N-000079 )
+  (    1 N-000077 )
+  (    2 N-000078 )
  )
  ( /4FBE5D9F/4FBE5DC7 $noname  C24 4n7 {Lib=C}
-  (    1 N-000077 )
-  (    2 N-000075 )
+  (    1 N-000076 )
+  (    2 N-000074 )
  )
  ( /4FBE5D9F/4FBE5DC6 $noname  C25 1µ {Lib=C}
-  (    1 N-000080 )
+  (    1 N-000079 )
   (    2 AGND )
  )
  ( /4FBE5D9F/4FBE5DC5 $noname  C26 1µ {Lib=C}
-  (    1 N-000076 )
+  (    1 N-000075 )
   (    2 AGND )
  )
  ( /4FB7BCB8/4FBE8C14 $noname  U4 INA155 {Lib=AD620}
-  (    1 N-000065 )
+  (    1 N-000064 )
   (    2 /ti-afe12/in2p )
   (    3 /ti-afe12/in2n )
   (    4 AGND )
   (    5 Vref )
-  (    6 N-000068 )
+  (    6 N-000067 )
   (    7 AVCC )
-  (    8 N-000067 )
+  (    8 N-000066 )
  )
  ( /4FB7BCB8/4FB7BB90 $noname  C14 1µ {Lib=C}
-  (    1 N-000068 )
-  (    2 N-000072 )
+  (    1 N-000067 )
+  (    2 N-000071 )
  )
  ( /4FB7BCB8/4FB7BB8F $noname  R37 2k2 {Lib=R}
-  (    1 N-000072 )
-  (    2 N-000071 )
+  (    1 N-000071 )
+  (    2 N-000070 )
  )
  ( /4FB7BCB8/4FB7BB8E $noname  R36 1M {Lib=R}
   (    1 AGND )
-  (    2 N-000072 )
+  (    2 N-000071 )
  )
  ( /4FB7BCB8/4FB7BB8C $noname  R40 10k {Lib=R}
-  (    1 N-000069 )
+  (    1 N-000068 )
   (    2 /channel2/Vout )
  )
  ( /4FB7BCB8/4FB7BB8B $noname  C16 440n {Lib=C}
@@ -295,56 +292,56 @@
   (    2 AGND )
  )
  ( /4FB7BCB8/4FB7BB89 $noname  C15 6n8 {Lib=C}
-  (    1 N-000071 )
-  (    2 N-000069 )
+  (    1 N-000070 )
+  (    2 N-000068 )
  )
  ( /4FB7BCB8/4FB7BB88 $noname  R39 1M {Lib=R}
-  (    1 N-000071 )
-  (    2 N-000069 )
+  (    1 N-000070 )
+  (    2 N-000068 )
  )
  ( /4FB7BCB8/4FB7BB7E $noname  R35 20k {Lib=R}
-  (    1 N-000067 )
-  (    2 N-000065 )
+  (    1 N-000066 )
+  (    2 N-000064 )
  )
  ( /4FB7BCB8/4FB7BB7D $noname  RV5 10k {Lib=POT}
-  (    1 N-000066 )
+  (    1 N-000065 )
   (    2 AGND )
-  (    3 N-000070 )
+  (    3 N-000069 )
  )
  ( /4FB7BCB8/4FB7BB7C $noname  U10 CA3140 {Lib=CA3140}
-  (    1 N-000070 )
-  (    2 N-000071 )
+  (    1 N-000069 )
+  (    2 N-000070 )
   (    3 Vref )
   (    4 AGND )
-  (    5 N-000066 )
-  (    6 N-000069 )
+  (    5 N-000065 )
+  (    6 N-000068 )
   (    7 AVCC )
   (    8 ? )
  )
  ( /4FB7B986/4FBE8C14 $noname  U5 INA155 {Lib=AD620}
-  (    1 N-000056 )
+  (    1 N-000055 )
   (    2 /ti-afe12/in1p )
   (    3 /ti-afe12/in1n )
   (    4 AGND )
   (    5 Vref )
-  (    6 N-000057 )
+  (    6 N-000056 )
   (    7 AVCC )
-  (    8 N-000060 )
+  (    8 N-000059 )
  )
  ( /4FB7B986/4FB7BB90 $noname  C17 1µ {Lib=C}
-  (    1 N-000057 )
-  (    2 N-000061 )
+  (    1 N-000056 )
+  (    2 N-000060 )
  )
  ( /4FB7B986/4FB7BB8F $noname  R45 2k2 {Lib=R}
-  (    1 N-000061 )
-  (    2 N-000063 )
+  (    1 N-000060 )
+  (    2 N-000062 )
  )
  ( /4FB7B986/4FB7BB8E $noname  R44 1M {Lib=R}
   (    1 AGND )
-  (    2 N-000061 )
+  (    2 N-000060 )
  )
  ( /4FB7B986/4FB7BB8C $noname  R48 10k {Lib=R}
-  (    1 N-000062 )
+  (    1 N-000061 )
   (    2 /channel1/Vout )
  )
  ( /4FB7B986/4FB7BB8B $noname  C19 440n {Lib=C}
@@ -352,29 +349,29 @@
   (    2 AGND )
  )
  ( /4FB7B986/4FB7BB89 $noname  C18 6n8 {Lib=C}
-  (    1 N-000063 )
-  (    2 N-000062 )
+  (    1 N-000062 )
+  (    2 N-000061 )
  )
  ( /4FB7B986/4FB7BB88 $noname  R47 1M {Lib=R}
-  (    1 N-000063 )
-  (    2 N-000062 )
+  (    1 N-000062 )
+  (    2 N-000061 )
  )
  ( /4FB7B986/4FB7BB7E $noname  R43 20k {Lib=R}
-  (    1 N-000060 )
-  (    2 N-000056 )
+  (    1 N-000059 )
+  (    2 N-000055 )
  )
  ( /4FB7B986/4FB7BB7D $noname  RV6 10k {Lib=POT}
-  (    1 N-000058 )
+  (    1 N-000057 )
   (    2 AGND )
-  (    3 N-000059 )
+  (    3 N-000058 )
  )
  ( /4FB7B986/4FB7BB7C $noname  U12 CA3140 {Lib=CA3140}
-  (    1 N-000059 )
-  (    2 N-000063 )
+  (    1 N-000058 )
+  (    2 N-000062 )
   (    3 Vref )
   (    4 AGND )
-  (    5 N-000058 )
-  (    6 N-000062 )
+  (    5 N-000057 )
+  (    6 N-000061 )
   (    7 AVCC )
   (    8 ? )
  )
@@ -719,45 +716,45 @@ Net 8 "AGND" "AGND"
  J6 5
  J6 3
  L2 1
- J2 5
- J2 3
- J2 4
  U1 4
  C2 2
+ J2 3
+ J2 4
+ J2 5
  R7 2
  J2 2
  C1 2
 Net 9 "AVCC" "AVCC"
- L1 1
- U12 7
- C1 1
- U5 7
- U1 7
- P1 1
- U13 12
  U4 7
- R6 1
- C3 1
- P3 1
+ U13 12
  U10 7
+ R6 1
+ C1 1
+ P3 1
+ U5 7
+ L1 1
+ P1 1
+ U12 7
+ C3 1
+ U1 7
 Net 10 "" ""
  R7 1
  U1 3
  R6 2
 Net 11 "Vref" "Vref"
- U12 3
- U1 6
  U10 3
- U4 5
+ U5 5
+ U12 3
  U1 2
  C2 1
- U5 5
+ U4 5
+ U1 6
 Net 16 "" ""
  R1 1
  SHIELD1 13
 Net 17 "/ti-afe12/dout" "dout"
- SHIELD1 12
  U13 21
+ SHIELD1 12
 Net 18 "" ""
  R2 1
  SHIELD1 11
@@ -771,172 +768,170 @@ Net 27 "" ""
  SHIELD1 1
  P12 1
 Net 28 "" ""
- P13 1
  SHIELD1 0
+ P13 1
 Net 29 "" ""
- P9 1
  SHIELD1 AREF
+ P9 1
 Net 30 "" ""
- SHIELD1 V_IN
  P6 1
+ SHIELD1 V_IN
 Net 31 "/channel2/Vout" "Vout"
  C16 1
  R40 2
  P8 1
-Net 32 "" ""
- SHIELD1 GND3
- P10 1
-Net 33 "DGND" "DGND"
+Net 32 "DGND" "DGND"
  L2 2
+ U13 24
  R4 2
  C4 2
- U13 24
+ R8 2
+ SHIELD1 GND3
  SHIELD1 GND2
  SHIELD1 GND1
- R8 2
-Net 34 "" ""
+Net 33 "" ""
  SHIELD1 RST
  P5 1
-Net 37 "DVCC" "DVCC"
+Net 36 "DVCC" "DVCC"
  SHIELD1 3V3
- U13 14
  U13 23
+ U13 14
  C4 1
-Net 39 "/ti-afe12/start" "start"
- R5 2
+Net 38 "/ti-afe12/start" "start"
  U13 16
-Net 40 "/ti-afe12/sclk" "sclk"
- U13 20
+ R5 2
+Net 39 "/ti-afe12/sclk" "sclk"
  R1 2
-Net 41 "/ti-afe12/din" "din"
- U13 19
+ U13 20
+Net 40 "/ti-afe12/din" "din"
  R2 2
-Net 42 "/ti-afe12/drdy" "drdy"
+ U13 19
+Net 41 "/ti-afe12/drdy" "drdy"
  P14 1
  U13 22
-Net 43 "/ti-afe12/cs" "cs"
+Net 42 "/ti-afe12/cs" "cs"
  U13 18
  P11 1
-Net 44 "/ti-afe12/pwdn/reset" "pwdn/reset"
- 20k1 2
+Net 43 "/ti-afe12/pwdn/reset" "pwdn/reset"
  U13 15
-Net 47 "/ti-afe12/rldinv" "rldinv"
+ 20k1 2
+Net 46 "/ti-afe12/rldinv" "rldinv"
  R54 1
- P1 3
  P3 3
  U13 28
  C22 1
-Net 49 "/channel1/Vout" "Vout"
+ P1 3
+Net 48 "/channel1/Vout" "Vout"
  R48 2
- C19 1
  P7 1
-Net 50 "+5V" "+5V"
- SHIELD1 5V
+ C19 1
+Net 49 "+5V" "+5V"
  L1 2
-Net 51 "/ti-afe12/gpio2" "gpio2"
+ SHIELD1 5V
+Net 50 "/ti-afe12/gpio2" "gpio2"
  U13 25
  D1 1
-Net 52 "" ""
+Net 51 "" ""
  D1 2
  R4 1
-Net 53 "" ""
+Net 52 "" ""
  R8 1
  D2 2
-Net 54 "/ti-afe12/gpio1" "gpio1"
- U13 26
+Net 53 "/ti-afe12/gpio1" "gpio1"
  D2 1
-Net 55 "" ""
+ U13 26
+Net 54 "" ""
  SHIELD1 5
  20k1 1
-Net 56 "" ""
+Net 55 "" ""
  R43 2
  U5 1
-Net 57 "" ""
+Net 56 "" ""
  U5 6
  C17 1
-Net 58 "" ""
+Net 57 "" ""
  RV6 1
  U12 5
-Net 59 "" ""
- U12 1
+Net 58 "" ""
  RV6 3
-Net 60 "" ""
- U5 8
+ U12 1
+Net 59 "" ""
  R43 1
-Net 61 "" ""
- C17 2
+ U5 8
+Net 60 "" ""
  R45 1
  R44 2
-Net 62 "" ""
- U12 6
+ C17 2
+Net 61 "" ""
  R48 1
- C18 2
  R47 2
-Net 63 "" ""
- C18 1
- R47 1
+ U12 6
+ C18 2
+Net 62 "" ""
  U12 2
+ R47 1
  R45 2
-Net 65 "" ""
- U4 1
+ C18 1
+Net 64 "" ""
  R35 2
-Net 66 "" ""
- U10 5
+ U4 1
+Net 65 "" ""
  RV5 1
-Net 67 "" ""
- R35 1
+ U10 5
+Net 66 "" ""
  U4 8
-Net 68 "" ""
- C14 1
+ R35 1
+Net 67 "" ""
  U4 6
-Net 69 "" ""
- U10 6
- R40 1
- C15 2
+ C14 1
+Net 68 "" ""
  R39 2
-Net 70 "" ""
- U10 1
+ C15 2
+ R40 1
+ U10 6
+Net 69 "" ""
  RV5 3
-Net 71 "" ""
- R39 1
+ U10 1
+Net 70 "" ""
  C15 1
- U10 2
  R37 2
-Net 72 "" ""
- C14 2
+ R39 1
+ U10 2
+Net 71 "" ""
  R37 1
  R36 2
-Net 74 "" ""
- C21 1
+ C14 2
+Net 73 "" ""
  U13 9
-Net 75 "" ""
+ C21 1
+Net 74 "" ""
  C24 2
  U13 8
-Net 76 "" ""
+Net 75 "" ""
  C26 1
  U13 27
-Net 77 "" ""
+Net 76 "" ""
  C24 1
  U13 7
-Net 78 "" ""
- C23 1
+Net 77 "" ""
  U13 1
-Net 79 "" ""
+ C23 1
+Net 78 "" ""
  C23 2
  U13 2
-Net 80 "" ""
+Net 79 "" ""
  U13 11
  C25 1
-Net 81 "" ""
- J4 1
+Net 80 "" ""
  R57 1
-Net 82 "" ""
- R56 1
+ J4 1
+Net 81 "" ""
  J3 1
-Net 83 "" ""
- R59 1
+ R56 1
+Net 82 "" ""
  J6 1
-Net 84 "" ""
+ R59 1
+Net 83 "" ""
  J5 1
  R58 1
 }

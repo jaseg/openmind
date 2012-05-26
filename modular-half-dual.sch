@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 25 May 2012 10:34:43 PM CEST
+EESchema Schematic File Version 2  date Sat 26 May 2012 12:20:03 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -42,7 +42,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 6
 Title ""
-Date "25 may 2012"
+Date "26 may 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,6 +50,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L DGND #PWR?
+U 1 1 4FC0AE50
+P 5200 1800
+F 0 "#PWR?" H 5200 1800 40  0001 C CNN
+F 1 "DGND" H 5200 1730 40  0000 C CNN
+	1    5200 1800
+	0    -1   -1   0   
+$EndComp
 $Comp
 L AGND #PWR01
 U 1 1 4FBFEB71
@@ -290,15 +299,6 @@ Text Label 5500 3000 2    60   ~ 0
 ar3
 Text Label 5500 2900 2    60   ~ 0
 ar4
-$Comp
-L CONN_1 P10
-U 1 1 4FBFB0CC
-P 5350 1800
-F 0 "P10" H 5430 1800 40  0000 L CNN
-F 1 "CONN_1" H 5350 1855 30  0001 C CNN
-	1    5350 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_1 P9
 U 1 1 4FBFB0C9
