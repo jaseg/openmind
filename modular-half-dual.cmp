@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 25 May 2012 10:34:04 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 28 Jul 2012 05:06:47 PM CEST
 
 BeginCmp
 TimeStamp = /4FBE9157;
@@ -190,6 +190,13 @@ IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
+TimeStamp = /5013FFD5;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
 TimeStamp = /4FBFA28E;
 Reference = P3;
 ValeurCmp = CONN_4;
@@ -200,14 +207,14 @@ BeginCmp
 TimeStamp = /4FBFB0EB;
 Reference = P5;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = PINTST;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FBFB0E8;
 Reference = P6;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = PINTST;
 EndCmp
 
 BeginCmp
@@ -228,14 +235,7 @@ BeginCmp
 TimeStamp = /4FBFB0C9;
 Reference = P9;
 ValeurCmp = CONN_1;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FBFB0CC;
-Reference = P10;
-ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = PINTST;
 EndCmp
 
 BeginCmp
@@ -249,14 +249,14 @@ BeginCmp
 TimeStamp = /4FBFD879;
 Reference = P12;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = PINTST;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FBFD87D;
 Reference = P13;
 ValeurCmp = CONN_1;
-IdModule  = ;
+IdModule  = PINTST;
 EndCmp
 
 BeginCmp

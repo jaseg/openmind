@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 26 May 2012 12:20:03 PM CEST
+EESchema Schematic File Version 2  date Sat 28 Jul 2012 05:10:15 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,9 +40,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 9 6
+Sheet 6 6
 Title ""
-Date "26 may 2012"
+Date "28 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -190,9 +190,9 @@ AR Path="/4FB7BD40/4FB7BB8D" Ref="#PWR07"  Part="1"
 AR Path="/4FB7BD2D/4FB7BB8D" Ref="#PWR013"  Part="1" 
 AR Path="/4FB7BD19/4FB7BB8D" Ref="#PWR031"  Part="1" 
 AR Path="/4FB7BCFA/4FB7BB8D" Ref="#PWR035"  Part="1" 
-AR Path="/4FB7BCB8/4FB7BB8D" Ref="#PWR027"  Part="1" 
-AR Path="/4FB7B986/4FB7BB8D" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 5450 4800 40  0001 C CNN
+AR Path="/4FB7BCB8/4FB7BB8D" Ref="#PWR29"  Part="1" 
+AR Path="/4FB7B986/4FB7BB8D" Ref="#PWR33"  Part="1" 
+F 0 "#PWR33" H 5450 4800 40  0001 C CNN
 F 1 "AGND" H 5450 4730 50  0000 C CNN
 	1    5450 4800
 	1    0    0    -1  
@@ -235,9 +235,9 @@ AR Path="/4FB7BD40/4FB7BB8A" Ref="#PWR08"  Part="1"
 AR Path="/4FB7BD2D/4FB7BB8A" Ref="#PWR014"  Part="1" 
 AR Path="/4FB7BD19/4FB7BB8A" Ref="#PWR032"  Part="1" 
 AR Path="/4FB7BCFA/4FB7BB8A" Ref="#PWR036"  Part="1" 
-AR Path="/4FB7BCB8/4FB7BB8A" Ref="#PWR028"  Part="1" 
-AR Path="/4FB7B986/4FB7BB8A" Ref="#PWR032"  Part="1" 
-F 0 "#PWR032" H 8100 4600 40  0001 C CNN
+AR Path="/4FB7BCB8/4FB7BB8A" Ref="#PWR31"  Part="1" 
+AR Path="/4FB7B986/4FB7BB8A" Ref="#PWR35"  Part="1" 
+F 0 "#PWR35" H 8100 4600 40  0001 C CNN
 F 1 "AGND" H 8100 4530 50  0000 C CNN
 	1    8100 4600
 	1    0    0    -1  
@@ -280,9 +280,9 @@ AR Path="/4FB7BD40/4FB7BB86" Ref="#PWR09"  Part="1"
 AR Path="/4FB7BD2D/4FB7BB86" Ref="#PWR015"  Part="1" 
 AR Path="/4FB7BD19/4FB7BB86" Ref="#PWR033"  Part="1" 
 AR Path="/4FB7BCFA/4FB7BB86" Ref="#PWR037"  Part="1" 
-AR Path="/4FB7BCB8/4FB7BB86" Ref="#PWR029"  Part="1" 
-AR Path="/4FB7B986/4FB7BB86" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 6550 4500 40  0001 C CNN
+AR Path="/4FB7BCB8/4FB7BB86" Ref="#PWR30"  Part="1" 
+AR Path="/4FB7B986/4FB7BB86" Ref="#PWR34"  Part="1" 
+F 0 "#PWR34" H 6550 4500 40  0001 C CNN
 F 1 "AGND" H 6550 4400 50  0000 C CNN
 	1    6550 4500
 	1    0    0    -1  
@@ -295,9 +295,9 @@ AR Path="/4FB7BD40/4FB7BB85" Ref="#PWR010"  Part="1"
 AR Path="/4FB7BD2D/4FB7BB85" Ref="#PWR016"  Part="1" 
 AR Path="/4FB7BD19/4FB7BB85" Ref="#PWR034"  Part="1" 
 AR Path="/4FB7BCFA/4FB7BB85" Ref="#PWR038"  Part="1" 
-AR Path="/4FB7BCB8/4FB7BB85" Ref="#PWR030"  Part="1" 
-AR Path="/4FB7B986/4FB7BB85" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 4350 4500 40  0001 C CNN
+AR Path="/4FB7BCB8/4FB7BB85" Ref="#PWR28"  Part="1" 
+AR Path="/4FB7B986/4FB7BB85" Ref="#PWR32"  Part="1" 
+F 0 "#PWR32" H 4350 4500 40  0001 C CNN
 F 1 "AGND" H 4350 4430 50  0000 C CNN
 	1    4350 4500
 	1    0    0    -1  
