@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 28 Jul 2012 05:10:15 PM CEST
+EESchema Schematic File Version 2  date Sat 28 Jul 2012 05:33:44 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +40,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 6
+Sheet 3 6
 Title ""
 Date "28 jul 2012"
 Rev ""
@@ -109,27 +109,27 @@ F 1 "20k" V 2150 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AGND #PWR22
+L AGND #PWR021
 U 1 1 4FBE6C56
 P 1850 1550
-AR Path="/4FBE6C46/4FBE6C56" Ref="#PWR22"  Part="1" 
+AR Path="/4FBE6C46/4FBE6C56" Ref="#PWR021"  Part="1" 
 AR Path="/4FBE6CFE/4FBE6C56" Ref="#PWR013"  Part="1" 
 AR Path="/4FBE6CF5/4FBE6C56" Ref="#PWR015"  Part="1" 
-AR Path="/4FBE6CE5/4FBE6C56" Ref="#PWR20"  Part="1" 
-F 0 "#PWR22" H 1850 1550 40  0001 C CNN
+AR Path="/4FBE6CE5/4FBE6C56" Ref="#PWR019"  Part="1" 
+F 0 "#PWR021" H 1850 1550 40  0001 C CNN
 F 1 "AGND" H 1850 1480 50  0000 C CNN
 	1    1850 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #PWR21
+L AGND #PWR022
 U 1 1 4FBE6C55
 P 1750 2250
-AR Path="/4FBE6C46/4FBE6C55" Ref="#PWR21"  Part="1" 
+AR Path="/4FBE6C46/4FBE6C55" Ref="#PWR022"  Part="1" 
 AR Path="/4FBE6CFE/4FBE6C55" Ref="#PWR014"  Part="1" 
 AR Path="/4FBE6CF5/4FBE6C55" Ref="#PWR016"  Part="1" 
-AR Path="/4FBE6CE5/4FBE6C55" Ref="#PWR19"  Part="1" 
-F 0 "#PWR21" H 1750 2250 40  0001 C CNN
+AR Path="/4FBE6CE5/4FBE6C55" Ref="#PWR020"  Part="1" 
+F 0 "#PWR022" H 1750 2250 40  0001 C CNN
 F 1 "AGND" H 1750 2180 50  0000 C CNN
 	1    1750 2250
 	1    0    0    -1  
