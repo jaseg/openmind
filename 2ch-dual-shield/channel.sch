@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 28 Jul 2012 05:33:44 PM CEST
+EESchema Schematic File Version 2  date Tue 31 Jul 2012 09:37:59 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,10 +30,11 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:sma
-LIBS:arduino_shieldsNCL
 LIBS:ads
 LIBS:ads1294
+LIBS:arduino_shieldsNCL
 LIBS:openmind-custom
+LIBS:sma_edge
 LIBS:ti-afe
 LIBS:modular-half-dual-cache
 EELAYER 25  0

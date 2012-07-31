@@ -1,0 +1,1 @@
+../2ch-dual-shield/channel.sch
