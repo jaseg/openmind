@@ -10,4 +10,7 @@
 *.000
 *.dcm
 *.emp
+libraries-and-stuff
+gerbers
+gerbers.zip
 $safepcb.brd
