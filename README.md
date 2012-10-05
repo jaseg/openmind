@@ -25,6 +25,15 @@ All these "digital active electrodes" can be connected on one SPI bus with one !
 of them can be controlled via three SPI pins and 8 !CS pins (which themselves can be multiplexed from three pins using a
 small logic IC)
 
+Files
+-----
+ * `2ch-dual-shield` *recommended* A 2-channel Arduino shield which may be populated as an analog frontend for the Arduino's ADCs or (*recommended*) with an integrated analog frontend containing a 16- or 24-bit ADC.
+ * `4ch-1chip-minimal-breakout` A minimalist breakout board for a large (TQFP-64) 4-channel chip. The coax electrode cables are supposed to be soldered directly to the board.
+ * `4ch-dual-shield` A variant containing 4 differential channels which can be populated analog for use with the Arduino's ADC or with integrated TI frontends. This board became way too crowded, I recommend its successor, the 2-channel version.
+ * `active-electrode` An active electrode design small enough so the board *can be* the electrode. In this design, the analog frontend sits on the electrode so there are no analog connections leaving the board whatsoever (except for the analog power supply, that is).
+ * `analog-shield` A fully analog Arduino shield containing nil but 4 primitive differential amplifiers to connect 8 inputs to 4 adc channels of the Arduino.
+ * `libraries-and-stuff` Libraries used in the boards. As of now, not all required libs are included but just the ones I made myself. For the others I still have to sort out the licensing foo.
+
 Electrode Connections
 ---------------------
 ### Electrode modes
