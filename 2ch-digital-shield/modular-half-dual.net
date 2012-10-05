@@ -1,0 +1,609 @@
+# EESchema Netlist Version 1.1 created  Thu 16 Aug 2012 07:47:30 PM CEST
+(
+ ( /502D2F43 $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 N-000023 )
+ )
+ ( /502D2F42 $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 N-000034 )
+ )
+ ( /502D2F40 $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 N-000033 )
+ )
+ ( /502D2F3F $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 N-000032 )
+ )
+ ( /502D2F3E $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 N-000031 )
+ )
+ ( /502D2F3D $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 N-000030 )
+ )
+ ( /502D2F3B $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 N-000038 )
+ )
+ ( /502D2F39 $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000035 )
+ )
+ ( /502D2F2C $noname  P12 CONN_1 {Lib=CONN_1}
+  (    1 N-000037 )
+ )
+ ( /502D2F29 $noname  P22 CONN_1 {Lib=CONN_1}
+  (    1 N-000040 )
+ )
+ ( /502D2F28 $noname  P21 CONN_1 {Lib=CONN_1}
+  (    1 N-000041 )
+ )
+ ( /502D2F27 $noname  P20 CONN_1 {Lib=CONN_1}
+  (    1 N-000042 )
+ )
+ ( /502D2F26 $noname  P19 CONN_1 {Lib=CONN_1}
+  (    1 N-000043 )
+ )
+ ( /502D2F25 $noname  P18 CONN_1 {Lib=CONN_1}
+  (    1 N-000039 )
+ )
+ ( /502D2F24 $noname  P17 CONN_1 {Lib=CONN_1}
+  (    1 N-000044 )
+ )
+ ( /502D2F22 $noname  P16 CONN_1 {Lib=CONN_1}
+  (    1 N-000045 )
+ )
+ ( /502D2F21 $noname  P15 CONN_1 {Lib=CONN_1}
+  (    1 N-000036 )
+ )
+ ( /502D2F1D $noname  P13 CONN_1 {Lib=CONN_1}
+  (    1 N-000026 )
+ )
+ ( /4FB7BD87 $noname  SHIELD1 ARDUINO_SHIELD {Lib=ARDUINO_SHIELD}
+  (    0 N-000040 )
+  (    1 N-000041 )
+  (    2 N-000042 )
+  (    3 N-000043 )
+  (    4 N-000039 )
+  (    5 N-000046 )
+  (   5V +5V )
+  (    6 N-000002 )
+  (    7 N-000044 )
+  (    8 N-000045 )
+  (    9 N-000036 )
+  (   10 N-000026 )
+  (   11 N-000027 )
+  (   12 /ti-afe12/dout )
+  (   13 N-000029 )
+  (  3V3 DVCC )
+  (  AD0 N-000030 )
+  (  AD1 N-000031 )
+  (  AD2 N-000032 )
+  (  AD3 N-000033 )
+  (  AD4 N-000034 )
+  (  AD5 N-000023 )
+  ( AREF N-000037 )
+  ( GND1 DGND )
+  ( GND2 DGND )
+  ( GND3 DGND )
+  (  RST N-000035 )
+  ( V_IN N-000038 )
+ )
+ ( /502D1CCA $noname  20k3 20k {Lib=R}
+  (    1 /ti-afe12/drdy )
+  (    2 /drdy )
+ )
+ ( /502D1CBD $noname  20k2 20k {Lib=R}
+  (    1 /ti-afe12/cs )
+  (    2 /cs )
+ )
+ ( /4FBF8758 $noname  C3 1000n {Lib=C}
+  (    1 AVCC )
+  (    2 AGND )
+ )
+ ( /4FBFE495 $noname  P14 CONN_1 {Lib=CONN_1}
+  (    1 /drdy )
+ )
+ ( /4FBFE491 $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 /cs )
+ )
+ ( /4FBFA2C9 $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 AVCC )
+  (    2 AGND )
+  (    3 /ti-afe12/rldinv )
+  (    4 AGND )
+ )
+ ( /4FBFA28E $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 AVCC )
+  (    2 AGND )
+  (    3 /ti-afe12/rldinv )
+  (    4 AGND )
+ )
+ ( /4FBE9157 $noname  20k1 20k {Lib=R}
+  (    1 N-000046 )
+  (    2 /ti-afe12/pwdn/reset )
+ )
+ ( /4FBF875A $noname  C4 1000n {Lib=C}
+  (    1 DVCC )
+  (    2 DGND )
+ )
+ ( /4FBE9151 $noname  R5 20k {Lib=R}
+  (    1 N-000002 )
+  (    2 /ti-afe12/start )
+ )
+ ( /4FBE914A $noname  R2 20k {Lib=R}
+  (    1 N-000027 )
+  (    2 /ti-afe12/din )
+ )
+ ( /4FBE9147 $noname  R1 20k {Lib=R}
+  (    1 N-000029 )
+  (    2 /ti-afe12/sclk )
+ )
+ ( /4FBE6BA3 $noname  R49 20k {Lib=R}
+  (    1 /ti-afe12/rldout )
+  (    2 N-000022 )
+ )
+ ( /4FBE6B6E SMA  J2 SMA {Lib=SMA}
+  (    1 N-000022 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FB7BECA $noname  L2 INDUCTOR {Lib=INDUCTOR}
+  (    1 AGND )
+  (    2 DGND )
+ )
+ ( /4FB7BEC6 $noname  L1 INDUCTOR {Lib=INDUCTOR}
+  (    1 AVCC )
+  (    2 +5V )
+ )
+ ( /4FB7BEB1 $noname  C1 1µ {Lib=C}
+  (    1 AVCC )
+  (    2 AGND )
+ )
+ ( /4FBE6CE5/4FBE6C5A SMA  J5 SMA {Lib=SMA}
+  (    1 N-000060 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FBE6CE5/4FBE6C59 SMA  J6 SMA {Lib=SMA}
+  (    1 N-000059 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FBE6CE5/4FBE6C58 $noname  R58 20k {Lib=R}
+  (    1 N-000060 )
+  (    2 /ti-afe12/in2p )
+ )
+ ( /4FBE6CE5/4FBE6C57 $noname  R59 20k {Lib=R}
+  (    1 N-000059 )
+  (    2 /ti-afe12/in2n )
+ )
+ ( /4FBE6C46/4FBE6C5A SMA  J3 SMA {Lib=SMA}
+  (    1 N-000058 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FBE6C46/4FBE6C59 SMA  J4 SMA {Lib=SMA}
+  (    1 N-000057 )
+  (    2 AGND )
+  (    3 AGND )
+  (    4 AGND )
+  (    5 AGND )
+ )
+ ( /4FBE6C46/4FBE6C58 $noname  R56 20k {Lib=R}
+  (    1 N-000058 )
+  (    2 /ti-afe12/in1p )
+ )
+ ( /4FBE6C46/4FBE6C57 $noname  R57 20k {Lib=R}
+  (    1 N-000057 )
+  (    2 /ti-afe12/in1n )
+ )
+ ( /4FBE5D9F/4FBE5F3F $noname  R54 1M {Lib=R}
+  (    1 /ti-afe12/rldinv )
+  (    2 /ti-afe12/rldout )
+ )
+ ( /4FBE5D9F/4FBE5F3C $noname  C22 1n5 {Lib=C}
+  (    1 /ti-afe12/rldinv )
+  (    2 /ti-afe12/rldout )
+ )
+ ( /4FBE5D9F/4FBE5EDA $noname  C21 10µ_ceramic {Lib=C}
+  (    1 N-000056 )
+  (    2 AGND )
+ )
+ ( /4FBE5D9F/4FBE5DCB $noname  U13 ADS1291/2 {Lib=ADS1291/2}
+  (    1 N-000050 )
+  (    2 N-000051 )
+  (    3 /ti-afe12/in1n )
+  (    4 /ti-afe12/in1p )
+  (    5 /ti-afe12/in2n )
+  (    6 /ti-afe12/in2p )
+  (    7 N-000054 )
+  (    8 N-000055 )
+  (    9 N-000056 )
+  (   10 AGND )
+  (   11 N-000052 )
+  (   12 AVCC )
+  (   13 AGND )
+  (   14 DVCC )
+  (   15 /ti-afe12/pwdn/reset )
+  (   16 /ti-afe12/start )
+  (   17 ? )
+  (   18 /ti-afe12/cs )
+  (   19 /ti-afe12/din )
+  (   20 /ti-afe12/sclk )
+  (   21 /ti-afe12/dout )
+  (   22 /ti-afe12/drdy )
+  (   23 DVCC )
+  (   24 DGND )
+  (   25 ? )
+  (   26 ? )
+  (   27 N-000053 )
+  (   28 /ti-afe12/rldinv )
+  (   29 ? )
+  (   30 /ti-afe12/rldout )
+  (   31 ? )
+  (   32 ? )
+ )
+ ( /4FBE5D9F/4FBE5DC8 $noname  C23 4n7 {Lib=C}
+  (    1 N-000050 )
+  (    2 N-000051 )
+ )
+ ( /4FBE5D9F/4FBE5DC7 $noname  C24 4n7 {Lib=C}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4FBE5D9F/4FBE5DC6 $noname  C25 1µ {Lib=C}
+  (    1 N-000052 )
+  (    2 AGND )
+ )
+ ( /4FBE5D9F/4FBE5DC5 $noname  C26 1µ {Lib=C}
+  (    1 N-000053 )
+  (    2 AGND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component 20k3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component 20k2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component 20k1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R49
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R58
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R59
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R56
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R57
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R54
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "DVCC" "DVCC"
+ U13 23
+ SHIELD1 3V3
+ U13 14
+ C4 1
+Net 2 "" ""
+ SHIELD1 6
+ R5 1
+Net 3 "/ti-afe12/start" "start"
+ U13 16
+ R5 2
+Net 4 "/ti-afe12/din" "din"
+ R2 2
+ U13 19
+Net 5 "/ti-afe12/sclk" "sclk"
+ U13 20
+ R1 2
+Net 6 "/ti-afe12/in2n" "in2n"
+ U13 5
+ R59 2
+Net 7 "/ti-afe12/in2p" "in2p"
+ U13 6
+ R58 2
+Net 8 "/ti-afe12/in1p" "in1p"
+ R56 2
+ U13 4
+Net 9 "/ti-afe12/in1n" "in1n"
+ U13 3
+ R57 2
+Net 10 "/ti-afe12/rldout" "rldout"
+ U13 30
+ C22 2
+ R54 2
+ R49 1
+Net 11 "AGND" "AGND"
+ C21 2
+ C3 2
+ J5 2
+ J6 3
+ J6 5
+ J6 4
+ J6 2
+ J5 5
+ J5 4
+ J5 3
+ J4 3
+ C25 2
+ C26 2
+ U13 10
+ U13 13
+ J4 4
+ J4 2
+ J4 5
+ J3 5
+ J3 4
+ J3 3
+ J3 2
+ P3 2
+ P3 4
+ L2 1
+ P1 4
+ P1 2
+ J2 3
+ J2 2
+ J2 4
+ J2 5
+ C1 2
+Net 12 "/ti-afe12/rldinv" "rldinv"
+ U13 28
+ C22 1
+ R54 1
+ P3 3
+ P1 3
+Net 13 "AVCC" "AVCC"
+ L1 1
+ C1 1
+ P3 1
+ U13 12
+ C3 1
+ P1 1
+Net 14 "/ti-afe12/pwdn/reset" "pwdn/reset"
+ U13 15
+ 20k1 2
+Net 20 "+5V" "+5V"
+ L1 2
+ SHIELD1 5V
+Net 21 "DGND" "DGND"
+ L2 2
+ C4 2
+ SHIELD1 GND1
+ U13 24
+ SHIELD1 GND2
+ SHIELD1 GND3
+Net 22 "" ""
+ R49 2
+ J2 1
+Net 23 "" ""
+ P10 1
+ SHIELD1 AD5
+Net 24 "/cs" "cs"
+ 20k2 2
+ P11 1
+Net 26 "" ""
+ SHIELD1 10
+ P13 1
+Net 27 "" ""
+ R2 1
+ SHIELD1 11
+Net 28 "/ti-afe12/dout" "dout"
+ U13 21
+ SHIELD1 12
+Net 29 "" ""
+ SHIELD1 13
+ R1 1
+Net 30 "" ""
+ P5 1
+ SHIELD1 AD0
+Net 31 "" ""
+ P6 1
+ SHIELD1 AD1
+Net 32 "" ""
+ P7 1
+ SHIELD1 AD2
+Net 33 "" ""
+ P8 1
+ SHIELD1 AD3
+Net 34 "" ""
+ SHIELD1 AD4
+ P9 1
+Net 35 "" ""
+ P2 1
+ SHIELD1 RST
+Net 36 "" ""
+ SHIELD1 9
+ P15 1
+Net 37 "" ""
+ P12 1
+ SHIELD1 AREF
+Net 38 "" ""
+ P4 1
+ SHIELD1 V_IN
+Net 39 "" ""
+ P18 1
+ SHIELD1 4
+Net 40 "" ""
+ P22 1
+ SHIELD1 0
+Net 41 "" ""
+ P21 1
+ SHIELD1 1
+Net 42 "" ""
+ SHIELD1 2
+ P20 1
+Net 43 "" ""
+ SHIELD1 3
+ P19 1
+Net 44 "" ""
+ P17 1
+ SHIELD1 7
+Net 45 "" ""
+ P16 1
+ SHIELD1 8
+Net 46 "" ""
+ 20k1 1
+ SHIELD1 5
+Net 47 "/drdy" "drdy"
+ P14 1
+ 20k3 2
+Net 48 "/ti-afe12/drdy" "drdy"
+ 20k3 1
+ U13 22
+Net 49 "/ti-afe12/cs" "cs"
+ U13 18
+ 20k2 1
+Net 50 "" ""
+ U13 1
+ C23 1
+Net 51 "" ""
+ C23 2
+ U13 2
+Net 52 "" ""
+ U13 11
+ C25 1
+Net 53 "" ""
+ U13 27
+ C26 1
+Net 54 "" ""
+ U13 7
+ C24 1
+Net 55 "" ""
+ U13 8
+ C24 2
+Net 56 "" ""
+ C21 1
+ U13 9
+Net 57 "" ""
+ J4 1
+ R57 1
+Net 58 "" ""
+ J3 1
+ R56 1
+Net 59 "" ""
+ R59 1
+ J6 1
+Net 60 "" ""
+ R58 1
+ J5 1
+}
+#End

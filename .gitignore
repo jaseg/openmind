@@ -8,7 +8,6 @@
 *.gbo
 *.gto
 *.000
-*cache*
 *.dcm
 *.emp
 $safepcb.brd
