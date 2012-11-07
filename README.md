@@ -1,11 +1,3 @@
-Disclaimer
-----------
-These schematics and code are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even
-the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-Do not build this stuff or even connect it to any living thing unless you ABSOLUTELY KNOW WHAT YOU ARE DOING!
-(Sorry for all the shouting. Although I do not like disclaimers, I have the bad feeling one might be necessary here...
-tell me if you know otherwise)
-
 What is it?
 -----------
 OpenMind is a take on an open source electroencephalograph, i.e. a device to capture "brain waves" - the tiny electrical
@@ -64,6 +56,10 @@ any of the ADC inputs - so you can connect some auxiliary signal to this pin and
 The pad on the bottom side of the board is intended to be used to surface-mount type 261k or 269k 9v battery connectors
 (available at digikey). I did not yet physically check it, but I will as soon as I order at digikey.
 
+To guarantee galvanic separation from mains potential and to improve the power supply noise floor for the ADCs I would
+recommend using a battery (rechargeable or not), radioisotope thermoelectric (or other peltier), fuel cell or other
+non-switching, off-grid power supply. Extra style points are given for the radioactive option.
+
 Software/driver
 ---------------
 The interfacing of these ADCs is pretty straightforward. A driver for AVRs currently only supporting the ADS1194
@@ -78,3 +74,9 @@ Just a bunch of ideas:
 * A muscle-computer-interface, i.e. a device that senses when you physically move your muscles by measuring the pretty
   strong signals your brain sends to them. For reference see William Gibson: Burning Chrome (though, in comparision to
   the one used there, openmind is still one-way).
+
+Warning
+-------
+These schematics and code are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Now, the following should be obvious: Do not connect this stuff to anything alive unless you absolutely know what you are doing and do not blame me when you fry your brains with it.
