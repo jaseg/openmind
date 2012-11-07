@@ -1,0 +1,3 @@
+[submodule "first-prototype"]
+	path = first-prototype
+	url = https://github.com/jaseg/openmind-first-protoype.git
