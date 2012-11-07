@@ -73,7 +73,7 @@ What to do with this?
 ---------------------
 Just a bunch of ideas:
 
-* http://www.instructables.com/id/Animatronic-Cat-Ears/
+* http://www.instructables.com/id/Animatronic-Cat-Ears/ This only needs more pony.
 * A sleep cycle-detector that wakes you up by using some LEDs to simulate dawn at *exactly* the right time
 * A muscle-computer-interface, i.e. a device that senses when you physically move your muscles by measuring the pretty
   strong signals your brain sends to them. For reference see William Gibson: Burning Chrome (though, in comparision to
